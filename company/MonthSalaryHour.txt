@@ -1,0 +1,4 @@
+5 Yura 20
+6 Karina 30
+7 Leonid 50
+8 Karl 60
