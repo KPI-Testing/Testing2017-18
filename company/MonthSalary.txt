@@ -1,0 +1,4 @@
+1 Andrey 10000
+2 Mark 8000
+3 Ivan 10000
+4 Sasha 5000
