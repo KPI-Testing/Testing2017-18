@@ -1,0 +1,1 @@
+Add time forArrryList8980 Find time for LinkedList ArrryList13257 Remove time forArrryList9409 Add time forLinkedList2993 Find time for LinkedList LinkedList14541 Remove time forLinkedList10691 Add time forHashSet8126 Find time for LinkedList HashSet10263 Remove time forHashSet10264 Add time forTreeSet5132 Find time for LinkedList TreeSet10263 Remove time forTreeSet8126 
