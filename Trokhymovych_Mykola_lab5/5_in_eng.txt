@@ -1,0 +1,1 @@
+Write a console program that would sort the text filed from the file to the standard alphabetical entry. The program should ignore the case when sorting. Check for English, Ukrainian and Russian UTF-81

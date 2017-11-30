@@ -1,0 +1,18 @@
+Name: name6, Surname: sur6, ID: id6, Salary: 99840.
+Name: name4, Surname: sur4, ID: id4, Salary: 66560.
+Name: name3, Surname: sur3, ID: id3, Salary: 49920.
+Name: name5, Surname: sur5, ID: id5, Salary: 500.
+Name: name1, Surname: sur1, ID: id1, Salary: 100.
+Name: name2, Surname: sur2, ID: id2, Salary: 100.
+
+First 5 names
+name6
+name4
+name3
+name5
+name1
+
+Last 3 ID`s
+id2
+id1
+id5

@@ -1,0 +1,17 @@
+Comparing Add time:
+	LinkedList 182172
+	ArrayList  46697
+	TreeSet  531120
+	HashSet 55421
+
+Comparing Find time:
+	LinkedList 20013
+	ArrayList 8211
+	TreeSet 12829
+	HashSet 7698
+
+Comparing Remove time:
+	LinkedList 18986
+	ArraydList 8724
+	TreeSet 26172
+	HashSet 16935

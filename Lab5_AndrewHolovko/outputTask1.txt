@@ -1,0 +1,17 @@
+Add time:
+ArrayList: 22665
+LinkList: 3849
+TreeSet: 8980
+HashSet: 16250
+
+Find time:
+ArrayList: 21809
+LinkList: 25230
+TreeSet: 12402
+HashSet: 2566
+
+Remove time:
+ArrayList: 20954
+LinkList: 14540
+TreeSet: 19671
+HashSet: 14539

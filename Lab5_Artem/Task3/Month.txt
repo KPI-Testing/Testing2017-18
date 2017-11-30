@@ -1,0 +1,5 @@
+10 Leo 44000
+190 Jonson 19000
+12 PetyaPoroh 0
+140 Pashtet 10000
+13 Patrick 15224

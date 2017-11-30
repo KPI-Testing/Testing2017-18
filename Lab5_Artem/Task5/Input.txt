@@ -1,0 +1,4 @@
+SQL Exercises with PostgreSQL - необхідно пройти
+PostgreSQL -  установити PostgreSQL локально, прочитати та попрактикуватись на прикладах з трьох перших розділів
+DataGrip - GUI/IDE (можна по студентському отримати повний доступ до всіх продуктів JetBrains, в тому числі і до PyCharm)
+Psycopg2 (optional) - подружити PostgreSQL з Python

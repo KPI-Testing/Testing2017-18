@@ -1,0 +1,10 @@
+[ID  10WorkerName  LeoSalary  44000.0
+, ID  186WorkerName  LindaSalary  19968.0
+, ID  190WorkerName  JonsonSalary  19000.0
+, ID  10WorkerName  LonSalary  15475.2
+, ID  13WorkerName  PatrickSalary  15224.0
+, ID  140WorkerName  PashtetSalary  10000.0
+, ID  54WorkerName  AliSalary  7488.0
+, ID  145WorkerName  MuhamedSalary  2496.0
+, ID  12WorkerName  PetyaPorohSalary  0.0
+]

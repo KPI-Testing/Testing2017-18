@@ -1,0 +1,33 @@
+LinkedList add time is (not at the end) 44
+ArrayList add tame is (not at the end) 26
+LinkedList add time is (at the end) 16
+ArrayList add time is (at the end) 29
+TreeSet add time is only at the end 119
+hashSet add time is only at the end 33
+
+LinledList is more effective if you want to insert at the end.
+But ArrayList is more effective if you want to insert in the middle.
+
+LinkedList get time is 706
+ArrayList get time is 4
+TreeSet return all elements by set time is 2
+
+You can use get(i) function in ArrayList and LinkedList to get element with index i;
+You can use set(i) function in TreeSet to get first i elements;
+
+If you want get first i elements, it's more effective to do with TreeSet collection.
+If you want get element with index i, it's more effective to do with ArrayList.
+
+LinkedList indexOf time is 1470
+ArrayList indexOf time is 691
+
+You can use indexOf(i) function in ArrayList and LinkedList to get index of element with i parameter.
+This function is worked more effective to Arraylist than to LinkedList.
+
+LinkedList remove time is 18
+ArrayList remove time is 15
+TreeSet remove time is 73
+HashSet remove time is 16
+
+You can use remove(i) function to remove an element with index i.
+This function is wore effectiv to TreeSet collection.

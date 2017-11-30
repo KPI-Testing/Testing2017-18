@@ -1,0 +1,10 @@
+fix 1 Yulia Goncharenko 1300.0
+hour 2 Lena Boichuk 5.0
+fix 3 Nina Kudina 800.0
+hour 4 Olexiy Sainog 6.0
+hour 5 Gesha Kantsedal 4.0
+fix 6 Grisha Rubel 1200.0
+hour 7 Oleg Onishchuk 3.0
+fix 8 Sasha Chislov 980.0
+fix 9 Yurii Perga 1300.0
+fix 10 Anna Kudina 1300.0

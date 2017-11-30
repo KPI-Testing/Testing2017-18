@@ -1,0 +1,20 @@
+Add time:
+ArrayList: 23948
+LinkList: 3421
+TreeSet: 8553
+HashSet: 15395
+
+Find time:
+ArrayList: 20099
+LinkList: 27796
+TreeSet: 12829
+HashSet: 2994
+
+Remove time:
+ArrayList: 20954
+LinkList: 14112
+TreeSet: 18388
+HashSet: 12401
+
+LinkList выигрывает у ArrayList по времени добавления и удаления элемента (ибо двусвязный список работает со ссылками на соседние элементы и не требует сдвига элементов массива). Однако поиск в ArrayList быстрее, поскольку LinkList требуется перебрать много ссылок для поиска нужного элемента.
+HashSet по идее быстрее, так как TreeSet хранит данные отсортированными.

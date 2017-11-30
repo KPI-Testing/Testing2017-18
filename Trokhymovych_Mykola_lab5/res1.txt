@@ -1,0 +1,16 @@
+
+Time for adding 10 elements:
+LinkedList adding time 366694
+ArrayList adding time 30324
+TreeSet adding time  130162
+HashSet adding time 35923
+Time for finding 5 elements:
+LinkedList finding time  56917
+ArrayList finding time   25193
+TreeSet finding time  50386
+HashSet finding time  23326
+Time for removing elements 5:
+LinkedList removing time58316
+ArrayList removing time  27059
+TreeSet removing time  86775
+HashSet removing time  57850

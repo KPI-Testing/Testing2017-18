@@ -1,0 +1,12 @@
+Add time for LinkedList 988736
+Add time for ArrayList  855736
+Add time for TreeSet  6003837
+Add time for HashSet 2456445
+Find time for LinkedList 215538
+Find time for ArrayList 171489
+Find time for TreeSet 47042
+Find time for HashSet 6842
+Remove time for LinkedList 45331
+Remove time for ArraydList 9408
+Remove time for TreeSet 15823
+Remove time for HashSet 10692
