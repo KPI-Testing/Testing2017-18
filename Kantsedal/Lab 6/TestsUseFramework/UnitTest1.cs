@@ -59,7 +59,7 @@ namespace TestsUseFramework
 
                 .ClearMinPrice().SetMinimumPrice(pricemin)
                 .ClearMaxPrice().SetMaximumPrice(pricemax)
-                .SubmitPriceFilter().FirstBookClick();
+                .SubmitPriceFilter().SomeBookClick(2);
             var bookpage = new Bookshell(driver);
 
             //Assert

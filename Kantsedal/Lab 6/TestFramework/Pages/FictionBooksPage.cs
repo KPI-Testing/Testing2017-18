@@ -31,9 +31,10 @@ namespace TestFramework.Pages
             MinimumPrice.SendKeys(price.ToString());
             return this;
         }
-        public FictionBooksPage FirstBookClick()
+   public FictionBooksPage SomeBookClick(int i)
         {
-            books[0].Click();
+            books[i-1].Click();
+     
             return this;
         }
         public FictionBooksPage SetMaximumPrice(int? price)
