@@ -1,5 +1,6 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Support.PageObjects;
+using TestFramework.Elements;
 
 namespace TestFramework.Pages
 {
@@ -13,8 +14,14 @@ namespace TestFramework.Pages
             PageFactory.InitElements(driver, this);
         }
 
-        public IWebDriver GetDriver() {
+        public IWebDriver GetDriver()
+        {
             return _driver;
         }
+
+        [FindsBy(How = How.CssSelector, Using = ".hub-i-link.hub-i-cart-link")]
+        private IWebElement tempCart;
+        public Button Cart => new Button(tempCart);
+
     }
 }

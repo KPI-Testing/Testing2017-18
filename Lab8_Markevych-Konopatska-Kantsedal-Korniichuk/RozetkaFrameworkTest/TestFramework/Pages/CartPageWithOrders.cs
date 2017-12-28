@@ -38,7 +38,16 @@ namespace TestFramework.Pages
                 return tempProductsImageSet.Select(iwebe => new Image(iwebe)).ToList();
             }
         }
-
+      
+        [FindsBy(How = How.CssSelector, Using = ".cart-merchant-logo>span>img")]
+        public IList<IWebElement> tempSellerImageSet;
+        public IList<Image> SellerImageSet
+        {
+            get
+            {
+                return tempSellerImageSet.Select(iwebe => new Image(iwebe)).ToList();
+            }
+        }
         [FindsBy(How = How.CssSelector, Using = ".cart-uah.cart-sum-uah>[name=\"sum\"]")]
         public IList<IWebElement> tempSumPriceForOneTypeOfProductSet;
         public IList<HtmlLabel> SumPriceForOneTypeOfProductSet
@@ -103,6 +112,36 @@ namespace TestFramework.Pages
             }
         }
 
+        [FindsBy(How = How.CssSelector, Using = ".sprite-side.novisited.cart-i-towishlist-link")]
+        public IList<IWebElement> tempWishListButtonsSet;
+        public IList<Button> WishListButtonsSet
+        {
+            get
+            {
+                return tempWishListButtonsSet.Select(iwebe => new Button(iwebe)).ToList();
+            }
+        }
+
+        [FindsBy(How = How.CssSelector, Using = ".sprite-side.novisited.cart-i-delete-link")]
+        public IList<IWebElement> tempDeleteWithoutSavingButtonsSet;
+        public IList<Button> DeleteWithoutSavingButtonsSetSet
+        {
+            get
+            {
+                return tempDeleteWithoutSavingButtonsSet.Select(iwebe => new Button(iwebe)).ToList();
+            }
+        }
+
+        [FindsBy(How = How.CssSelector, Using = "")]
+        public IList<IWebElement> tempCancelButtonsSet;
+        public IList<Button> CancelButtonsSet
+        {
+            get
+            {
+                return tempCancelButtonsSet.Select(iwebe => new Button(iwebe)).ToList();
+            }
+        }
+
         public string GetProductName (int n)
         {
             return ProductsLinksSet[n].Text;
@@ -111,6 +150,13 @@ namespace TestFramework.Pages
         public int GetPriceForType(int n)
         {
             var stringValue = PriceForOneTypeOfProductSet[n].GetText();
+            int.TryParse(stringValue, out int result);
+            return result;
+        }
+
+        public int GetQuantityForType(int n)
+        {
+            var stringValue = AmountTextFieldSet[n].Text;
             int.TryParse(stringValue, out int result);
             return result;
         }

@@ -1,1 +1,0 @@
-﻿#error (1:1): expected: #EOF, #Language, #TagLine, #FeatureLine, #Comment, #Empty, got '//BDD 6'

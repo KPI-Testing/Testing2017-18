@@ -34,7 +34,7 @@ namespace TestFramework.Extensions
                 if (breakingbool) break;
                 breakingbool = true;
                 i++;
-                if (i == 200) throw new Exception("Custom Waiter Timeouted!");
+                if (i == 400) throw new Exception("Custom Waiter Timeouted!");
                 System.Threading.Thread.Sleep(100);
             }
         }
@@ -50,7 +50,7 @@ namespace TestFramework.Extensions
                 if (breakingbool) break;
                 breakingbool = true;
                 i++;
-                if (i == 200) throw new Exception("Custom Waiter Timeouted!");
+                if (i == 400) throw new Exception("Custom Waiter Timeouted!");
                 System.Threading.Thread.Sleep(100);
                 Console.WriteLine(i);
             }
@@ -65,7 +65,7 @@ namespace TestFramework.Extensions
                 act(elem);
                 if (!elem.Displayed) breakingbool = false;
                 i++;
-                if (i == 200)
+                if (i == 400)
                 {
                     if (!ignoreexception)
                         throw new Exception("Custom Waiter Timeouted!");
@@ -85,7 +85,7 @@ namespace TestFramework.Extensions
             {
                 i++;
                 System.Threading.Thread.Sleep(50);
-                if (i==200) throw new Exception("Custom Waiter Timeouted!");
+                if (i==400) throw new Exception("Custom Waiter Timeouted!");
             }
         }
     }

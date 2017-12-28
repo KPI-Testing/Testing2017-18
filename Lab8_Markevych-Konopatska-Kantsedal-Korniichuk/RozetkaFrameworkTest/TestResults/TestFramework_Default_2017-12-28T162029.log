@@ -1,0 +1,33 @@
+﻿2017-12-28T16:20:29.3848375+02:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2017-12-28T16:20:29.5838489+02:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2017-12-28T16:20:29.5878491+02:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\Dergel\Desktop\Lab8_Markevych-Konopatska-Kantsedal-Korniichuk\RozetkaFrameworkTest\TestFramework\bin\Debug\TestFramework.dll
+2017-12-28T16:20:29.5888492+02:00;VSTestExecutionThread;Info;Profile: Default
+2017-12-28T16:20:39.9444415+02:00;Thread#15;Info;Discovering target: Default
+2017-12-28T16:20:39.9464416+02:00;Thread#15;Info;Discovering tests from assembly: C:\Users\Dergel\Desktop\Lab8_Markevych-Konopatska-Kantsedal-Korniichuk\RozetkaFrameworkTest\TestFramework\bin\Debug\TestFramework.dll
+Appdomain Disposed
+framework error: System.IO.FileNotFoundException: Could not load file or assembly 'TestFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. Не удается найти указанный файл.
+File name: 'TestFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean forIntrospection)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at System.UnitySerializationHolder.GetRealObject(StreamingContext context)
+
+   at TechTalk.SpecRun.Framework.TestSuiteProviders.AssemblySpecRunTestCollectionProvider.BuildTestCollectionFromAssembly(String testAssemblyPath, FilterItem filterPredicate, INodeIdProvider& nodeIdProvider, TestCollection parentCollection)
+   at TechTalk.SpecRun.Framework.TestSuiteProviders.TestSuiteProvider.BuildTestCollectionFromAssembly(String testAssemblyPath, FilterItem filterPredicate, INodeIdProvider& nodeIdProvider, TestCollection parentCollection)
+   at TechTalk.SpecRun.Framework.TestSuiteProviders.TestSuiteProvider.GetTestSuite(TestProfile testProfile)
+   at TechTalk.SpecRun.Framework.TestSuiteRunner.Run()
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+Total: 0
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0

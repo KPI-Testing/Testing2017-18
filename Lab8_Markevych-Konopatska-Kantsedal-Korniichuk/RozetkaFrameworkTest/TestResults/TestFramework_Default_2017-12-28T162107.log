@@ -1,0 +1,27 @@
+﻿2017-12-28T16:20:29.3848375+02:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2017-12-28T16:20:29.5838489+02:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2017-12-28T16:20:29.5878491+02:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\Dergel\Desktop\Lab8_Markevych-Konopatska-Kantsedal-Korniichuk\RozetkaFrameworkTest\TestFramework\bin\Debug\TestFramework.dll
+2017-12-28T16:20:29.5888492+02:00;VSTestExecutionThread;Info;Profile: Default
+2017-12-28T16:20:39.9444415+02:00;VSTestExecutionThread;Info;Discovering target: Default
+2017-12-28T16:20:39.9464416+02:00;VSTestExecutionThread;Info;Discovering tests from assembly: C:\Users\Dergel\Desktop\Lab8_Markevych-Konopatska-Kantsedal-Korniichuk\RozetkaFrameworkTest\TestFramework\bin\Debug\TestFramework.dll
+2017-12-28T16:21:07.3060065+02:00;VSTestExecutionThread;Info;Log file: file:///C:\Users\Dergel\Desktop\Lab8_Markevych-Konopatska-Kantsedal-Korniichuk\RozetkaFrameworkTest\TestResults\TestFramework_Default_2017-12-28T162029.log
+2017-12-28T16:21:07.3300079+02:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2017-12-28T16:21:07.3310079+02:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\Dergel\Desktop\Lab8_Markevych-Konopatska-Kantsedal-Korniichuk\RozetkaFrameworkTest\TestsUseFramework\bin\Debug\TestsUseFramework.dll
+2017-12-28T16:21:07.3320080+02:00;VSTestExecutionThread;Info;Profile: Default
+2017-12-28T16:21:19.3606960+02:00;Thread#17;Info;Discovering target: Default
+Test Suite Dump
+#0: TestFramework/Default - 
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 0
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0

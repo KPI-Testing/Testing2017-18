@@ -9,7 +9,14 @@ namespace TestFramework.Elements
 
         public new void Clear()
         {
-            
+            for (int i=0; i<5; i++)
+                this.SendKeys(Keys.Delete);
+        }
+
+        public new void SetValue(string value)
+        {
+            Clear();
+            SendKeys(value);
         }
 
     }

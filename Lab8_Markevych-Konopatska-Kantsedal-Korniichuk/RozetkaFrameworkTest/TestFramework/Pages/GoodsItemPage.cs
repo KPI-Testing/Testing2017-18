@@ -27,6 +27,14 @@ namespace TestFramework.Pages
         private IWebElement tempImage;
         public Image Image => new Image(tempImage);
 
+        [FindsBy(How = How.CssSelector, Using = ".detail-dwp-merchant-logo-i.responsive-img>img")]
+        private IWebElement tempSellerImage;
+        public Image SellerImage => new Image(tempSellerImage);
+
+        [FindsBy(How = How.CssSelector, Using = ".sprite-side.btn-link.novisited.detail-g-in-cart")]
+        private IWebElement tempCheckMark;
+        public Button CheckMark => new Button(tempCheckMark);
+
         public int? GetPrice()
         {
             var stringValue = Price.GetText();
@@ -47,6 +55,11 @@ namespace TestFramework.Pages
         public string GetImageSrc()
         {
             return Image.GetSourceLink();
+        }
+
+        public string GetSellerImageSrc()
+        {
+            return SellerImage.GetSourceLink();
         }
 
     }
