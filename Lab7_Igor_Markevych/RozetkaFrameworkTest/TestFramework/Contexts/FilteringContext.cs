@@ -45,44 +45,6 @@ namespace TestFramework.Contexts
             string url = page.GetDriver().Url;
             Action<IWebElement> act0 = (elem) =>elem.Click();
             WaitingExtensions.WaitUntilElementAppears(act0, page.MoreIzdButton);
-<<<<<<< HEAD
-            /* if (!ConstantCollectionsExtensions.RussianLetters.Contains(name[0]))
-                 for (int i = 0; i < page.CheckboxIzdSet.Count; i++)
-                 {
-                     if (page.CheckboxIzdSet[i].GetText().IndexOf(name+" (")==0)
-                     {
-                          if (page.CheckboxIzdSet[i].GetText().Equals(name + " (0)"))
-                             throw new Exception("No products with such filtering parameters.");
-                         page.CheckboxIzdSet[i].Click();
-                         break;
-                     }
-                 }
-             else {
-                 int j=page.CheckboxIzdSet.Count;
-                 int i = 0;
-                 while (page.CheckboxIzdSet[i].GetText()[0]!=name[0])
-                 {
-                     if (name[0]<page.CheckboxIzdSet[j / 2].GetText()[0])
-                         j = (j-i) / 2;
-                     else
-                         i = i + (j-i) / 2 ;
-                 }
-                 int k = i-1;
-                 while (page.CheckboxIzdSet[k].GetText()[0] == name[0] && page.CheckboxIzdSet[k].GetText().IndexOf(name + " (") != 0)
-                     k--;
-                 if (page.CheckboxIzdSet[k].GetText().IndexOf(name + " (") != 0)
-                 {
-                     k = i + 1;
-                     while (page.CheckboxIzdSet[k].GetText()[0] == name[0] && page.CheckboxIzdSet[k].GetText().IndexOf(name + " (") != 0)
-                         k++;
-                 }
-
-                 if (page.CheckboxIzdSet[k].GetText().Equals(name + " (0)"))
-                     throw new Exception("No products with such filtering parameters.");
-                 page.CheckboxIzdSet[k].Click();
-             }*/
-            page.CheckboxIzdSet.First(x=>x.GetText().IndexOf(name+" (")==0).Click();
-=======
             if (!ConstantCollectionsExtensions.RussianLetters.Contains(name[0]))
                 for (int i = 0; i < page.CheckboxIzdSet.Count; i++)
                 {
@@ -104,7 +66,7 @@ namespace TestFramework.Contexts
                     else
                         i = i + (j-i) / 2 ;
                 }
-                int k = i-1;
+                int k = i;
                 while (page.CheckboxIzdSet[k].GetText()[0] == name[0] && page.CheckboxIzdSet[k].GetText().IndexOf(name + " (") != 0)
                     k--;
                 if (page.CheckboxIzdSet[k].GetText().IndexOf(name + " (") != 0)
@@ -118,7 +80,6 @@ namespace TestFramework.Contexts
                     throw new Exception("No products with such filtering parameters.");
                 page.CheckboxIzdSet[k].Click();
             }
->>>>>>> 8e10e48ffcf7b517c283c28dd2dda7f323c2f90e
             WaitingExtensions.WaitUntilUrlIsChanged(page,url);
             return page;
         }
