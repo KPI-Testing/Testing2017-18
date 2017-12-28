@@ -1,0 +1,20 @@
+Sort workers: 
+dfgnhm 65 436767.0 
+hbhjbvhjv 4 130790.40000000001 
+mgfmj 45676 57568.0 
+adsfv 45 57241.6 
+jyvhv 4568 57241.6 
+dfgfnj 46 54767.0 
+frgbdghn 234 4666.0 
+bkgvhg 49 3466.0 
+hjdmvjv 47 2546.0 
+First five names: 
+dfgnhm 
+hbhjbvhjv 
+mgfmj 
+adsfv 
+jyvhv 
+Last three ID: 
+234 
+49 
+47 

@@ -1,0 +1,41 @@
+Scenario: Check basket is empty
+Using timeout for story roz_hello_world.story of 300 secs.
+PASS Given open schoolbookspage
+PASS When open basketpage
+PASS Then should be empty
+Then close basketpage
+
+Scenario: Order schoolbag number 1
+PASS Given open schoolbookspage
+PASS When open schoolbagspage
+PASS Then should see goods
+PASS Then order number 1
+Then continue shopping
+
+Scenario: Check basket isn't empty
+PASS When open basketpage
+PASS Then should be not empty
+Then close basketpage
+
+Scenario: Delete from basket
+PASS When open basketpage
+PASS Then should be not empty
+Then delete from basket
+PASS Then should be empty
+Then close basketpage
+
+Scenario: Order schoolbag number 2
+PASS Given open schoolbookspage
+PASS When open schoolbagspage
+PASS Then should see goods
+PASS Then order number 2
+PASS Then should be not empty
+Then close basketpage
+
+Scenario: Checkout
+PASS When open basketpage
+PASS Then should be not empty
+PASS Then proceed checkout
+PASS Then fill form Pupkin bpupkin@yahoo.com 0505000068
+PASS Then should see confirm
+

@@ -1,0 +1,4 @@
+Alex 11 102.0 Sandra 15 300.0
+Oleg 16 300.0
+Henry 17 300.0
+Sumail 18 200.0

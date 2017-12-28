@@ -1,0 +1,8 @@
+[Id  141Name  IvanSalary  45000.0
+, Id  152Name  JackSalary  42520.0
+, Id  100Name  YuraSalary  40000.0
+, Id  140Name  JoySalary  14000.0
+, Id  102Name  KolaSalary  11500.0
+, Id  100Name  HustonSalary  10000.0
+, Id  140Name  PashaSalary  1000.0
+]

@@ -1,0 +1,16 @@
+Дані, що були отримані:
+ArrayList Add - 1621 nanosec
+ArrayList Search - 16746 nanosec
+ArrayList Delete - 8103 nanosec
+LinkedList Add - 2161 nanosec
+LinkedList Search - 9183 nanosec
+LinkedList Delete - 24309 nanosec
+TreeSet Add - 7562 nanosec
+TreeSet Search - 27009 nanosec
+TreeSet Delete - 23229 nanosec
+HashSet Add - 7563 nanosec
+HashSet Search - 28631 nanosec
+HashSet Delete - 22689 nanosec
+За данними лабораторної роботи, де ми порівнювали колекції ArrayList, LinkedList, TreeSet і HashSet, можна зробити висновок, що
+при додаванні і видаленні елементу колекції найшвидше працює саме ArrayList, проте якщо взяти пошук елемента, найшвидше справляється LinkedList.
+TreeSet і HashSet з данними діями справляються в кілька разів довше.

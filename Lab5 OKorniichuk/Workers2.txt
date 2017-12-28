@@ -1,0 +1,5 @@
+102 Oz 7000 
+101 Alice 2500  
+103 Sheron 5000 
+104 Victor 2500 
+105 Zarksis 7500

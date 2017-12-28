@@ -1,0 +1,39 @@
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Google\Google.Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Google\Google.Tests\obj\Debug\Google.Tests.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Google\Google.Tests\obj\Debug\Google.Tests.pdb
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Google\Google.Tests\bin\Debug\Google.Tests.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Google\Google.Tests\bin\Debug\Google.Tests.pdb
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Google\Google.Tests\bin\Debug\Google.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Google\Google.Tests\bin\Debug\nunit.framework.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Google\Google.Tests\bin\Debug\WebDriver.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Google\Google.Tests\bin\Debug\WebDriver.Support.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Google\Google.Tests\bin\Debug\Google.pdb
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Google\Google.Tests\bin\Debug\nunit.framework.xml
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Google\Google.Tests\bin\Debug\WebDriver.xml
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Google\Google.Tests\bin\Debug\WebDriver.Support.xml
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\Google.Tests\bin\Debug\Google.Tests.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\Google.Tests\bin\Debug\Google.Tests.pdb
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\Google.Tests\bin\Debug\nunit.framework.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\Google.Tests\bin\Debug\WebDriver.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\Google.Tests\bin\Debug\WebDriver.Support.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\Google.Tests\bin\Debug\nunit.framework.xml
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\Google.Tests\bin\Debug\WebDriver.xml
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\Google.Tests\bin\Debug\WebDriver.Support.xml
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\Google.Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\Google.Tests\obj\Debug\Google.Tests.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\Google.Tests\obj\Debug\Google.Tests.pdb
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\Google.Tests\bin\Debug\TestFramework.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\Google.Tests\bin\Debug\TestFramework.pdb
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\TestsUseFramework\bin\Debug\Google.Tests.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\TestsUseFramework\bin\Debug\Google.Tests.pdb
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\TestsUseFramework\bin\Debug\nunit.framework.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\TestsUseFramework\bin\Debug\TestFramework.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\TestsUseFramework\bin\Debug\WebDriver.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\TestsUseFramework\bin\Debug\WebDriver.Support.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\TestsUseFramework\bin\Debug\TestFramework.pdb
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\TestsUseFramework\bin\Debug\nunit.framework.xml
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\TestsUseFramework\bin\Debug\WebDriver.xml
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\TestsUseFramework\bin\Debug\WebDriver.Support.xml
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\TestsUseFramework\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\TestsUseFramework\obj\Debug\Google.Tests.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\TestsUseFramework\obj\Debug\Google.Tests.pdb

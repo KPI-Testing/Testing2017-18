@@ -1,0 +1,10 @@
+﻿For all 3 tests we use 1 program with different input data:
+Test 1 - keyword - SkyTeam,
+Company - China Eastern Airline,
+Result - China Eastern Airline.PNG
+Test 2 - keyword - SkyTeam,
+Company - Aeroflot
+Result - Aeroflot.PNG
+Test 3 - keyword - SkyTeam,
+Company - Lufthansa
+Result - page1.PNG - page14.PNG

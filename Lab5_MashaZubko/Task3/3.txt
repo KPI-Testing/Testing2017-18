@@ -1,0 +1,6 @@
+name1 sur1 id1 100 1
+name2 sur2 id2 100 1
+name3 sur3 id3 300 0
+name4 sur4 id4 400 0
+name5 sur5 id5 500 1
+name6 sur6 id6 600 0

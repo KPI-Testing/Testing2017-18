@@ -1,0 +1,11 @@
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Google\Google.Tests\bin\Debug\Google.Tests.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Google\Google.Tests\bin\Debug\Google.Tests.pdb
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Google\Google.Tests\bin\Debug\Google.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Google\Google.Tests\bin\Debug\WebDriver.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Google\Google.Tests\bin\Debug\WebDriver.Support.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Google\Google.Tests\bin\Debug\Google.pdb
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Google\Google.Tests\bin\Debug\WebDriver.xml
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Google\Google.Tests\bin\Debug\WebDriver.Support.xml
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Google\Google.Tests\obj\Debug\Google.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Google\Google.Tests\obj\Debug\Google.Tests.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Google\Google.Tests\obj\Debug\Google.Tests.pdb

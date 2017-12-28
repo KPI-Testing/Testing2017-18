@@ -1,0 +1,51 @@
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Google\Google\bin\Debug\Google.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Google\Google\bin\Debug\Google.pdb
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Google\Google\bin\Debug\FluentAssertions.Core.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Google\Google\bin\Debug\FluentAssertions.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Google\Google\bin\Debug\nunit.framework.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Google\Google\bin\Debug\WebDriver.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Google\Google\bin\Debug\WebDriver.Support.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Google\Google\bin\Debug\FluentAssertions.pdb
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Google\Google\bin\Debug\FluentAssertions.xml
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Google\Google\bin\Debug\FluentAssertions.Core.pdb
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Google\Google\bin\Debug\FluentAssertions.Core.xml
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Google\Google\bin\Debug\nunit.framework.xml
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Google\Google\bin\Debug\WebDriver.xml
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Google\Google\bin\Debug\WebDriver.Support.xml
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Google\Google\obj\Debug\PageObjects.csprojResolveAssemblyReference.cache
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Google\Google\obj\Debug\Google.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Google\Google\obj\Debug\Google.pdb
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\Google\bin\Debug\TestFramework.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\Google\bin\Debug\TestFramework.pdb
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\Google\bin\Debug\FluentAssertions.Core.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\Google\bin\Debug\FluentAssertions.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\Google\bin\Debug\nunit.framework.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\Google\bin\Debug\WebDriver.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\Google\bin\Debug\WebDriver.Support.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\Google\bin\Debug\FluentAssertions.pdb
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\Google\bin\Debug\FluentAssertions.xml
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\Google\bin\Debug\FluentAssertions.Core.pdb
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\Google\bin\Debug\FluentAssertions.Core.xml
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\Google\bin\Debug\nunit.framework.xml
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\Google\bin\Debug\WebDriver.xml
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\Google\bin\Debug\WebDriver.Support.xml
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\Google\obj\Debug\PageObjects.csprojResolveAssemblyReference.cache
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\Google\obj\Debug\TestFramework.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\Google\obj\Debug\TestFramework.pdb
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\TestFramework\bin\Debug\TestFramework.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\TestFramework\bin\Debug\TestFramework.pdb
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\TestFramework\bin\Debug\FluentAssertions.Core.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\TestFramework\bin\Debug\FluentAssertions.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\TestFramework\bin\Debug\nunit.framework.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\TestFramework\bin\Debug\WebDriver.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\TestFramework\bin\Debug\WebDriver.Support.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\TestFramework\bin\Debug\FluentAssertions.pdb
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\TestFramework\bin\Debug\FluentAssertions.xml
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\TestFramework\bin\Debug\FluentAssertions.Core.pdb
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\TestFramework\bin\Debug\FluentAssertions.Core.xml
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\TestFramework\bin\Debug\nunit.framework.xml
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\TestFramework\bin\Debug\WebDriver.xml
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\TestFramework\bin\Debug\WebDriver.Support.xml
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\TestFramework\obj\Debug\PageObjects.csprojResolveAssemblyReference.cache
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\TestFramework\obj\Debug\TestFramework.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\Lab6 Yura Romanchuk\TestFramework\obj\Debug\TestFramework.pdb

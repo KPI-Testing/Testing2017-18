@@ -1,0 +1,11 @@
+[Id  34Name  KolaSalary  34000.0
+, Id  55Name  OlegSalary  15000.0
+, Id  56Name  NansySalary  9000.0
+, Id  54Name  OlexandSalary  7000.0
+, Id  23Name  EduardSalary  6800.0
+, Id  65Name  MashaSalary  3400.0
+, Id  44Name  NickSalary  3000.0
+, Id  102Name  OlegSalary  1500.0
+, Id  100Name  BobbySalary  1000.0
+, Id  152Name  NickSalary  420.0
+]

@@ -1,0 +1,12 @@
+Adding	LinkedList	30349
+Adding	ArrayList	28666
+Adding	TreeSet   	58038
+Adding	HashSet   	35435
+Searching	LinkedList	61364
+Searching	ArrayList	50351
+Searching	TreeSet   	42605
+Searching	HashSet   	26740
+Removing	LinkedList	35892
+Removing	ArrayList	21896
+Removing	TreeSet   	66442
+Removing	HashSet   	53345

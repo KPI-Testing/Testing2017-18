@@ -1,0 +1,15 @@
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\RozetkaTestAutomationFrameworkUsage\RozetkaTestAutomationFrameworkUsage\bin\Debug\RozetkaTestAutomationFrameworkUsage.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\RozetkaTestAutomationFrameworkUsage\RozetkaTestAutomationFrameworkUsage\bin\Debug\RozetkaTestAutomationFrameworkUsage.pdb
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\RozetkaTestAutomationFrameworkUsage\RozetkaTestAutomationFrameworkUsage\bin\Debug\WebDriver.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\RozetkaTestAutomationFrameworkUsage\RozetkaTestAutomationFrameworkUsage\bin\Debug\WebDriver.Support.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\RozetkaTestAutomationFrameworkUsage\RozetkaTestAutomationFrameworkUsage\bin\Debug\WebDriver.xml
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\RozetkaTestAutomationFrameworkUsage\RozetkaTestAutomationFrameworkUsage\bin\Debug\WebDriver.Support.xml
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\RozetkaTestAutomationFrameworkUsage\RozetkaTestAutomationFrameworkUsage\obj\Debug\RozetkaTestAutomationFrameworkUsage.csprojResolveAssemblyReference.cache
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\RozetkaTestAutomationFrameworkUsage\RozetkaTestAutomationFrameworkUsage\obj\Debug\RozetkaTestAutomationFrameworkUsage.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\RozetkaTestAutomationFrameworkUsage\RozetkaTestAutomationFrameworkUsage\obj\Debug\RozetkaTestAutomationFrameworkUsage.pdb
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\RozetkaTestAutomationFrameworkUsage\RozetkaTestAutomationFrameworkUsage\bin\Debug\FluentAssertions.Core.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\RozetkaTestAutomationFrameworkUsage\RozetkaTestAutomationFrameworkUsage\bin\Debug\FluentAssertions.dll
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\RozetkaTestAutomationFrameworkUsage\RozetkaTestAutomationFrameworkUsage\bin\Debug\FluentAssertions.pdb
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\RozetkaTestAutomationFrameworkUsage\RozetkaTestAutomationFrameworkUsage\bin\Debug\FluentAssertions.xml
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\RozetkaTestAutomationFrameworkUsage\RozetkaTestAutomationFrameworkUsage\bin\Debug\FluentAssertions.Core.pdb
+C:\Users\Юрий\Documents\Visual Studio 2015\Projects\RozetkaTestAutomationFrameworkUsage\RozetkaTestAutomationFrameworkUsage\bin\Debug\FluentAssertions.Core.xml

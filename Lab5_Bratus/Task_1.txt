@@ -1,0 +1,22 @@
+Add time for LinkedList: 16327
+Add time for ArrayList: 8397
+Add time for TreeSet: 23325
+Add time for HashSet: 17727
+
+Add time for ArrayList (8397 nanoseconds) is the fastest.
+
+*************************************
+Find time for LinkedList: 2770985
+Find time for ArrayList: 3276667
+Find time for TreeSet: 83036
+Find time for Hashset: 26591
+
+Find time for HashSet (26591 nanoseconds) is the fastest.
+
+*************************************
+Remove time for LinkedList: 1480191
+Remove time for ArrayList: 66709
+Remove time for TreeSet: 48982
+Remove time for HashSet: 51314
+
+Remove time for Treeset (48982 nanoseconds) is the fastest.

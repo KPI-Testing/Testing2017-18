@@ -1,0 +1,1 @@
+Constructs a new tree set containing the elements in the specified collection, sorted according to the natural ordering of its elements. All elements inserted into the set must implement the Comparable interface. Furthermore, all such elements must be mutually comparable:  must not throw a ClassCastException for any elements e1 and e2 in the set.

@@ -1,0 +1,10 @@
+C:\Users\Georg\Desktop\Rozetka-master\RozetkaFrameworkTest\TestFramework\bin\Debug\TestFramework.dll
+C:\Users\Georg\Desktop\Rozetka-master\RozetkaFrameworkTest\TestFramework\bin\Debug\TestFramework.pdb
+C:\Users\Georg\Desktop\Rozetka-master\RozetkaFrameworkTest\TestFramework\bin\Debug\WebDriver.dll
+C:\Users\Georg\Desktop\Rozetka-master\RozetkaFrameworkTest\TestFramework\bin\Debug\WebDriver.Support.dll
+C:\Users\Georg\Desktop\Rozetka-master\RozetkaFrameworkTest\TestFramework\bin\Debug\WebDriver.xml
+C:\Users\Georg\Desktop\Rozetka-master\RozetkaFrameworkTest\TestFramework\bin\Debug\WebDriver.Support.xml
+C:\Users\Georg\Desktop\Rozetka-master\RozetkaFrameworkTest\TestFramework\obj\Debug\TestFramework.csprojResolveAssemblyReference.cache
+C:\Users\Georg\Desktop\Rozetka-master\RozetkaFrameworkTest\TestFramework\obj\Debug\TestFramework.csproj.CoreCompileInputs.cache
+C:\Users\Georg\Desktop\Rozetka-master\RozetkaFrameworkTest\TestFramework\obj\Debug\TestFramework.dll
+C:\Users\Georg\Desktop\Rozetka-master\RozetkaFrameworkTest\TestFramework\obj\Debug\TestFramework.pdb

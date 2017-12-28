@@ -1,0 +1,154 @@
+﻿Introduction 
+Satoshi argues that buying and selling goods over the internet relies on financial institutions acting as 3rd parties to process financial transactions. These processes are therefore based upon the 2 parties trusting a 3rd party to process their transaction, and as a 3rd party has to be “trusted” there is always room for a transaction to be reversed. There is currently no way to make a non-reversible payment online for a non-reversible service as there is with cash in the physical world. 
+
+
+
+Since the financial institutions are acting as a trusted party to facilitate the transaction, they often spend time resolving disputes and dealing with fraud. This therefore increases the cost of performing a transaction over the internet and makes transactions relatively expensive.  
+
+To overcome this problem, Satoshi introduces an electronic payment system based on cryptography. This will allow two parties to interact with each other without a 3rd party getting in the way. Since these cryptographic transactions will be computationally impossible to reverse, users will be protected from fraud. 
+
+
+
+A peer-to-peer (a set of interconnected computers which work together) electronic cash system will be created. This peer-to-peer cash system, avoids previous problems of double spending (performing two transactions with one coin simultaneously) by using Hashing and proof-of-work (explained later).   
+
+                                                      Methodology 
+The “Methodology” section of the paper is spilt into the following sections that outline the concept of Bitcoin: (1) Transactions, (2) Timestamp server, (3) Proof-of-work, (4) Networking, (5) Incentive, (6) Reclaiming Disk Space, (7) Simplified Payment Verification, (8) Combining & Splitting Value, (9) Privacy and (10) Calculations. 
+
+These terms/phrases may sound completely alien to you at the moment, however, I will break down each section one by one to make their content clear and understandable.
+
+
+
+(1) Transactions 
+The definition of a Bitcoin is a “chain of digital signatures” that can be passed from one person to another using an electronic signature (hash). During this process, the sender passing the Bitcoin onwards, electronically signs the pervious transactions of the Bitcoin and the public key of the recipient they are sending the Bicoin to. 
+
+An analogy to this is signing for a package that you have received and then writing a forwarding address on the package before sending it onwards. Passing the Bitcoin from one person to another is like playing a game of pass the parcel, except each time the parcel is passed, the history of the parcels locations is written on it. This history creates the Bitcoin “Blockchain” which is essentially a ledger/log of the Bitcoin(s) transaction history.  
+
+
+
+Unlike parcels in the real world, digital parcels can be sent to more than one recipient at the same time (imagine sending the same email to multiple people). This is problematic as it could lead to people “double spending” their digital currency. 
+
+Bitcoin overcomes this problem as time stamps are used to ensure that whenever a Bitcoin is passed on, a duplicate copy of that coin cannot be double spent (fraud). Each transaction is time stamped and processed by the Bitcoin system in order of their respective time stamp. Therefore, if a coin is sent to two recipients, the coins will have different time stamps and hence the second coin sent will be automatically rejected by the system.  
+
+
+
+The Bitcoin system processes every transaction and “publicly announces” whenever a transaction takes place. This ensures that the system, along with its users, moderate the chain of transactions (blockchain) to ensure fraudulent activity does not take place. Using this method of moderating transactions ensures that a 3rd party is not needed and the Bitcoin system is truly decentralised.  
+
+Further to this, the participants of the system (computers/nodes) must agree on a single transaction timeline. If participants use different time lines, the double spending problem will reoccur and/or multiple block chains will be created (Mayhem!). 
+
+
+
+To avoid this, the majority of computers (nodes) in the network agree upon a singular timeline and process transactions relative to this time.   
+
+(2) Timestamp Server
+The timestamp server is a simple piece of software that is used to digitally timestamp data. The server takes a small section of the transaction data (a hash) and timestamps it. This time stamped hash is then made publicly available for everyone to see. The existence of this time stamped hash therefore proves that the transaction exists and is therefore valid.  
+
+
+
+As previously described in the “Transactions” section, the electronic signature of the previous transaction (hash) is also included in the newly created hash. This therefore creates a chain of transactions (Blockchain) as each new time stamped hash includes the previous hashes. The size of the Blockchain will therefore get larger as the transaction history increases.     
+
+
+
+This demonstrates why more processing power is needed to “mine” the block chain as its length increases. When Bitcoin was first introduced, a small desktop computer could efficiently “mine” Bitcoins (process transactions), however a desktop computer can no longer do this and specialised computers are needed to process the transactions due to the length of the Blockchain.    
+
+(3) Proof-of-Work
+To implement a time stamp server across a network of computers (nodes), a proof-of-work system has to be used. Proof-of-work requires proof that a specified amount work has been done by the system.  
+
+In terms of Bitcoin, a specific mathematical problem has to be solved by a computer and its answer presented to show that it has done work. Since a computer has to do work to solve a problem, people cannot spam the system with multiple requests. Spamming the system with multiple requests would require too much computer power and hence proof-of-work is used to safeguard the system.   
+
+
+
+An analogy to this would be, a teacher giving a difficult homework assignment to a student. The student takes the assignment/problem given to them, spends their time calculating a solution and then presents their answer to the teacher. The teacher then checks the students answer and if the student is correct, this proves to the teacher that the student has done a sufficient amount of work to be rewarded.      
+
+In detail:
+
+The hash created by the timestamp server, as described in the “Timestamp server” section, assigns itself a random and unique number so it can be identified in the Blockchain. This number also contains a puzzle that needs to be solved before a transaction can happen.  
+
+
+
+When someone sends a transaction, they must therefore take this unique number and solve its puzzle. The answer to the puzzle is then passed onto the next person (recipient) for the recipient to check. 
+
+The recipient then checks the answer given to them by the sender, by plugging the answer into the hash that generated the random number. The hash will then inform the receiver if the answer is correct.  
+
+If CORRECT the hash can then be passed from the sender to the receiver, this completes the transaction and the Blockchain increases in length.  
+
+If INCORRECT the transaction is rejected as it is invalid.   
+
+
+
+This process of solving hash puzzles essentially locks the transactions (blocks) in place within the Blockchain. To reverse a set of transactions (unlock a block), the work done to solve the hash puzzle would have to be undone. Since the hash’s build upon one another to form the Blockchain, you would also have to do work on the whole chain to undo a single block. Therefore it is impractical to unlock a single block as the whole chain has to be changed to do this. Hence, this creates transactions that cannot be reversed.   
+
+(4) Network
+This section briefly outlines the structure and processes of the Bitcoin network: 
+
+
+
+New transactions are “publicly announce” to all nodes >> each node puts all new transactions into a block >> each node works on solving the proof-of-work (earlier described) for its own block >> when a lucky node solves the puzzle for its block, it informs all other nodes >> nodes accept the solved block if ALL transactions are valid and there are no issues of double spending >> nodes move onto next block in chain >> This process then repeats in a loop. 
+
+Nodes always consider the longest chain to be correct. If two nodes send two versions of the block at the same time, these blocks will be processed based on their time stamp. The longest chain will win. If a node is switched off and subsequently does not receive a block, the rest of the nodes will continue without it and the node that missed out will be updated when it connects to the network at a later date.   
+
+(5) Incentive
+Conventionally, the first transaction in a block creates a new coin which is owned by the person (node) who created that particular block. This incentivises people to use their computers (nodes) and connect to the Bitcoin network to help process Bitcoin transactions. This is where the term Bitcoin mining originates.  
+
+
+
+Transaction fees also act as incentives, which are additional charges added to each transaction. Once the maximum amount of coins (21 Million) have entered the Bitcoin system, the incentive to keep mining Bitcoins solely comes in the form of transaction fees, which are inflation free.  
+
+It is hoped that these incentives will keep the nodes honest (literally) and stop them resorting to fraud to make a profit. If fraudulent users have more nodes than honest users, they can undo the block chain, steal payments and generate new coins. They should find it “more profitable to play by the rules” and it is hoped this will act as a deterrent to fraudulent nodes.   
+
+(6) Reclaiming Disk Space
+This section simply deals with memory allocation, the take away points being:
+
+ Old transactions can be discarded after a set amount of time to save disk space, the root (a trace) of the discarded transaction will remain so the Blockchain remains intact. 
+
+ The development of computer hardware (Moore’s law) will outpace the size of the Blockchain and as such, storing the chain on hardware shouldn’t be a problem.   
+
+
+
+(7) Simplified Payment Verification
+Payments can be verified without running the full network on a node. As long as a user has a copy of the longest Blockchain and block hash’s (remember a hash is only a small section of a transaction), they can verify a payment. This is done by querying the network of nodes and matching a transaction to its time-stamp.
+
+The transaction cannot be checked by an individual node, a person must connect to another node which connects them to the Blockchain. This connection will then verify that the person’s version of the Blockchain is up to date, if not, the Blockchain will update the person version of the Blockchain before continuing.  
+
+
+
+This method of verification when making a payment is reliable as long as honest nodes are in control, however this verification method becomes venerable if fraudulent nodes take over the network. To overcome this, an alert should be sent from nodes that detect an invalid block, informing other nodes to download a copy of the full Blockchain to confirm invalid blocks. Businesses should run their own nodes for increased security.   
+
+(8) Combining & Splitting Value  
+Processing coins individually is possible, however it is inefficient to make a separate transaction for ever cent in a transfer. The value of coins can therefore be split and/or recombined. This allows a large coin to be split into multiple parts before being passed on, or smaller coins to be combined and make a larger amount.  
+
+
+
+A maximum of 2 outputs from each transaction can be made, one going to the recipient and another returning change (if any) to the sender. 
+
+An example of this:  
+
+You could pay for an item by sending the recipient one dollar at a time $1... $1... $1... $1 and $1 or alternatively you could add up all your dollars and send them $5. It is more efficient to send the recipient $5 in one transaction and as such this is the method used to send Bitcoins.     
+
+(9) Privacy 
+Although transactions are publicly declared, the public keys that identify individuals are anonymous, and hence the identities of the sender and receiver cannot be determined by the public. It is publicly declared that an amount of money is moving from point A to B, however no identifiable information is openly distributed. This model of identification is similar to the “tape” used by stock exchanges when making their trade information public.   
+
+
+
+ (10) Calculations 
+  These calculations require a somewhat advanced understanding of mathematics which can take a long time to explain in a simplified manner. I will not go into this detail here, however, if enough people request this, I will make a new post explaining this section in detail.  
+
+In brief, this section mathematically states: 
+
+There is a higher probability that an honest node will find a block before a fraudulent node. It is therefore unlikely that the fraudulent node will catch up with the honest node when making a fraudulent Blockchain. The odds are not in the favour of the fraudulent node unless they simply get lucky. This is important when increasing the size of the Blockchain as the nodes identify the longest Blockchain as being the correct chain.      
+
+
+
+                                                              Conclusion 
+  Satoshi concludes their work by drawing attention to the key features of this paper:
+
+ A system for electronic transactions without relying on 3rd party trust has been proposed.  
+
+Digital signatures provide strong controls over ownership and double-spending is prevented.  
+
+A peer-to-peer network using proof-of-work is used to create a public log which is impractical for attackers to change, provided honest nodes are in control of the system. 
+
+Nodes work with little coordination, they do not need to be identified since messages are not ever sent to a sole location.  
+
+Nodes can leave and rejoin the network at any time, provided they update their Blockchain upon re-entering the network.  
+
+Rules and incentives can be enforced using a voting system. 

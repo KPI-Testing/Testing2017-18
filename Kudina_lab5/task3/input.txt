@@ -1,0 +1,15 @@
+fix 1 Julia Andruschenko 1.0
+hour 2 Nina Kudina 2.0
+fix 3 Taras Andruschenko 3.0
+hour 4 Larisa Kudina 4.0
+hour 5 Tkachenko Konstiantin 5.0
+fix 6 Dziuba Oksana 6.0
+hour 7 Miklono Miklunio 7.0
+fix 8 Sheldon Kuper 8.0
+fix 9 Stuart Bloom 9.0
+fix 10 Radjerj Kutropali 10.0
+hour 11 GOvard Volovic 11.0
+fix 12 Bernaded Merin-Rostenkovsky 12.0
+fix 13 Leonard Howstedor 13.0
+hour Emmy Pharaphauler 14.0
+fix Penny NoSecondName 15.0

@@ -1,0 +1,9 @@
+[id=1,name=Andrey,month salary=10000.0
+, id=3,name=Ivan,month salary=10000.0
+, id=2,name=Mark,month salary=8000.0
+, id=4,name=Sasha,month salary=5000.0
+, id=6,name=Karina,month salary=4992.0
+, id=8,name=Karl,month salary=9984.0
+, id=7,name=Leonid,month salary=8320.0
+, id=5,name=Yura,month salary=3328.0
+]

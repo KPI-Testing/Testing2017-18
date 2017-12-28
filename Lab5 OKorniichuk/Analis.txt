@@ -1,0 +1,23 @@
+Array List : 
+time spent on adding :  1186190  ns
+time spent on search :  28348  ns
+time spent on removing :  60116  ns
+
+Linked List : 
+time spent on adding :  2915868  ns
+time spent on search :  48875  ns
+time spent on removing :  86019  ns
+
+Array List adding, removing and search operations are faster compared to the Linked List operations.
+
+Hash Set : 
+time spent on adding :  269300  ns
+time spent on search :  28837  ns
+time spent on removing :  73312  ns
+
+Tree Set : 
+time spent on adding :  1055206  ns
+time spent on search :  52784  ns
+time spent on removing :  63048  ns
+
+Tree Set removing and search operations are faster than the same operations in Hash Set. But adding is slowlier.
