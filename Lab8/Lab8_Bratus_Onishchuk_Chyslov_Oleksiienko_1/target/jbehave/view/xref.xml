@@ -1,0 +1,4612 @@
+<xref>
+  <stories>
+    <performableStory>
+      <story>
+        <path>labjbehave/stories.story</path>
+        <description>
+          <descriptionAsString>As a user&#xd;
+I want to buy some items and check rozetka_backet&#xd;
+So that So that I go to ItemPage and add product to cart</descriptionAsString>
+        </description>
+        <narrative>
+          <inOrderTo></inOrderTo>
+          <asA></asA>
+          <iWantTo></iWantTo>
+          <soThat></soThat>
+        </narrative>
+        <meta>
+          <properties/>
+        </meta>
+        <givenStories>
+          <givenStories/>
+          <givenStoriesAsString></givenStoriesAsString>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <properties>
+                <property name="ignorableSeparator" value="|--"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="headerSeparator" value="|"/>
+              </properties>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+          </examplesTable>
+        </givenStories>
+        <lifecycle>
+          <before>
+            <steps class="java.util.Arrays$ArrayList">
+              <a class="string-array"/>
+            </steps>
+          </before>
+          <after/>
+        </lifecycle>
+        <scenarios>
+          <scenario>
+            <title>1 quick_purchase</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="ignorableSeparator" value="|--"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="headerSeparator" value="|"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="ignorableSeparator" value="|--"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="headerSeparator" value="|"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+            <steps>
+              <string>Given Opened start_catalog</string>
+              <string>When Click element`s 1 &quot;cart button&quot;</string>
+              <string>Then Item at position 1 has quantity 1</string>
+              <string>And Check</string>
+            </steps>
+          </scenario>
+          <scenario>
+            <title>2 simple_purchase</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="ignorableSeparator" value="|--"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="headerSeparator" value="|"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="ignorableSeparator" value="|--"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="headerSeparator" value="|"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+            <steps>
+              <string>Given Opened start_catalog</string>
+              <string>When Choose item_1</string>
+              <string>And Click &quot;Buy&quot;</string>
+              <string>Then Item at position 1 has quantity 1</string>
+              <string>And Item name is the same as it was on the item&apos;s page</string>
+              <string>And Check</string>
+            </steps>
+          </scenario>
+          <scenario>
+            <title>3 delete_item</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="ignorableSeparator" value="|--"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="headerSeparator" value="|"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="ignorableSeparator" value="|--"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="headerSeparator" value="|"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+            <steps>
+              <string>Given Opened start_catalog with cart fulfilled with quantity 2 of first element from start_catalog</string>
+              <string>When Click on cart button on menu bar</string>
+              <string>And Click &quot;delete from cart&quot;</string>
+              <string>Then Cart displays &quot;Cart is empty&quot;</string>
+            </steps>
+          </scenario>
+          <scenario>
+            <title>4 increase_quantity (“+”)</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="ignorableSeparator" value="|--"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="headerSeparator" value="|"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="ignorableSeparator" value="|--"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="headerSeparator" value="|"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+            <steps>
+              <string>Given Opened start_catalog with cart fulfilled with quantity 2 of first element from start_catalog</string>
+              <string>When Click on cart button on menu bar</string>
+              <string>And Click 1 times + button</string>
+              <string>Then Item at position 1 has quantity 3</string>
+              <string>And Item name is the same as it was on the item&apos;s page</string>
+              <string>And Check</string>
+            </steps>
+          </scenario>
+          <scenario>
+            <title>5 decrease quantity (“-”)</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="ignorableSeparator" value="|--"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="headerSeparator" value="|"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="ignorableSeparator" value="|--"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="headerSeparator" value="|"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+            <steps>
+              <string>Given Opened start_catalog with cart fulfilled with quantity 2 of first element from start_catalog</string>
+              <string>When Click on cart button on menu bar</string>
+              <string>And Click 1 times - button</string>
+              <string>Then Item at position 1 has quantity 1</string>
+              <string>And Item name is the same as it was on the item&apos;s page</string>
+              <string>And Check</string>
+            </steps>
+          </scenario>
+          <scenario>
+            <title>6 enter_quantity_by_keyboard (correct value)</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="ignorableSeparator" value="|--"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="headerSeparator" value="|"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="ignorableSeparator" value="|--"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="headerSeparator" value="|"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+            <steps>
+              <string>Given Opened start_catalog</string>
+              <string>When Choose item_1</string>
+              <string>And Click &quot;Buy&quot;</string>
+              <string>And Input quantity 10</string>
+              <string>Then Item at position 1 has quantity 10</string>
+              <string>And Item name is the same as it was on the item&apos;s page</string>
+              <string>And Check</string>
+            </steps>
+          </scenario>
+          <scenario>
+            <title>7 enter_quantity_by_keyboard (incorrect value)</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="ignorableSeparator" value="|--"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="headerSeparator" value="|"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="ignorableSeparator" value="|--"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="headerSeparator" value="|"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+            <steps>
+              <string>Given Opened start_catalog</string>
+              <string>When Choose item_1</string>
+              <string>And Click &quot;Buy&quot;</string>
+              <string>And Input quantity abc</string>
+              <string>Then Item at position 1 has quantity abc</string>
+              <string>And Item name is the same as it was on the item&apos;s page</string>
+              <string>And Check</string>
+            </steps>
+          </scenario>
+        </scenarios>
+        <name>stories.story</name>
+      </story>
+      <localizedNarrative>As a 
+I want to 
+So that </localizedNarrative>
+      <allowed>true</allowed>
+      <status>FAILED</status>
+      <givenStories/>
+      <scenarios>
+        <performableScenario>
+          <scenario>
+            <title>1 quick_purchase</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="ignorableSeparator" value="|--"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="headerSeparator" value="|"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="ignorableSeparator" value="|--"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="headerSeparator" value="|"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+            <steps>
+              <string>Given Opened start_catalog</string>
+              <string>When Click element`s 1 &quot;cart button&quot;</string>
+              <string>Then Item at position 1 has quantity 1</string>
+              <string>And Check</string>
+            </steps>
+          </scenario>
+          <storyPath>labjbehave/stories.story</storyPath>
+          <allowed>true</allowed>
+          <normalPerformableScenario>
+            <parameters/>
+            <givenStories/>
+            <beforeSteps>
+              <matches/>
+              <results>
+                <silent>
+                  <step>labjbehave.CartSteps.beforeScenario()</step>
+                  <type>SUCCESSFUL</type>
+                  <durationInMillis>4272</durationInMillis>
+                  <start>1514544622372</start>
+                  <end>1514544626644</end>
+                </silent>
+              </results>
+            </beforeSteps>
+            <steps>
+              <matches>
+                <stepMatch>
+                  <type>GIVEN</type>
+                  <annotatedPattern>Opened start_catalog</annotatedPattern>
+                  <resolvedPattern>Opened\s+start_catalog</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>THEN</type>
+                  <annotatedPattern>Item at position $position has quantity $quantity</annotatedPattern>
+                  <resolvedPattern>Item\s+at\s+position\s+(.*)\s+has\s+quantity\s+(.*)</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>WHEN</type>
+                  <annotatedPattern>Click element`s $number &quot;cart button&quot;</annotatedPattern>
+                  <resolvedPattern>Click\s+element`s\s+(.*)\s+&quot;cart\s+button&quot;</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>THEN</type>
+                  <annotatedPattern>Check</annotatedPattern>
+                  <resolvedPattern>Check</resolvedPattern>
+                </stepMatch>
+              </matches>
+              <results>
+                <successful>
+                  <step>Given Opened start_catalog</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>Given Opened start_catalog</parametrisedStep>
+                  <durationInMillis>9234</durationInMillis>
+                  <start>1514544626644</start>
+                  <end>1514544635878</end>
+                </successful>
+                <successful>
+                  <step>When Click element`s 1 &quot;cart button&quot;</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>When Click element`s ｟1｠ &quot;cart button&quot;</parametrisedStep>
+                  <durationInMillis>150</durationInMillis>
+                  <start>1514544635879</start>
+                  <end>1514544636029</end>
+                </successful>
+                <successful>
+                  <step>Then Item at position 1 has quantity 1</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>Then Item at position ｟1｠ has quantity ｟1｠</parametrisedStep>
+                  <durationInMillis>5425</durationInMillis>
+                  <start>1514544636031</start>
+                  <end>1514544641456</end>
+                </successful>
+                <successful>
+                  <step>And Check</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>And Check</parametrisedStep>
+                  <durationInMillis>206</durationInMillis>
+                  <start>1514544641457</start>
+                  <end>1514544641663</end>
+                </successful>
+              </results>
+            </steps>
+            <afterSteps>
+              <matches/>
+              <results>
+                <silent>
+                  <step>labjbehave.CartSteps.afterScenario()</step>
+                  <type>SUCCESSFUL</type>
+                  <durationInMillis>1367</durationInMillis>
+                  <start>1514544641664</start>
+                  <end>1514544643031</end>
+                </silent>
+              </results>
+            </afterSteps>
+            <storyAndScenarioMeta>
+              <properties/>
+            </storyAndScenarioMeta>
+            <scenario>
+              <title>1 quick_purchase</title>
+              <meta>
+                <properties/>
+              </meta>
+              <givenStories>
+                <givenStories/>
+                <givenStoriesAsString></givenStoriesAsString>
+                <examplesTable>
+                  <tableAsString></tableAsString>
+                  <tableTransformers>
+                    <transformers>
+                      <entry>
+                        <string>FORMATTING</string>
+                        <formatting/>
+                      </entry>
+                      <entry>
+                        <string>REPLACING</string>
+                        <replacing/>
+                      </entry>
+                      <entry>
+                        <string>FROM_LANDSCAPE</string>
+                        <fromLandscape/>
+                      </entry>
+                    </transformers>
+                  </tableTransformers>
+                  <headers/>
+                  <data/>
+                  <properties>
+                    <properties>
+                      <property name="ignorableSeparator" value="|--"/>
+                      <property name="valueSeparator" value="|"/>
+                      <property name="headerSeparator" value="|"/>
+                    </properties>
+                  </properties>
+                  <propertiesAsString></propertiesAsString>
+                  <namedParameters/>
+                </examplesTable>
+              </givenStories>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="ignorableSeparator" value="|--"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="headerSeparator" value="|"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+              <steps>
+                <string>Given Opened start_catalog</string>
+                <string>When Click element`s 1 &quot;cart button&quot;</string>
+                <string>Then Item at position 1 has quantity 1</string>
+                <string>And Check</string>
+              </steps>
+            </scenario>
+          </normalPerformableScenario>
+          <examplePerformableScenarios/>
+          <status>SUCCESSFUL</status>
+        </performableScenario>
+        <performableScenario>
+          <scenario>
+            <title>2 simple_purchase</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="ignorableSeparator" value="|--"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="headerSeparator" value="|"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="ignorableSeparator" value="|--"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="headerSeparator" value="|"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+            <steps>
+              <string>Given Opened start_catalog</string>
+              <string>When Choose item_1</string>
+              <string>And Click &quot;Buy&quot;</string>
+              <string>Then Item at position 1 has quantity 1</string>
+              <string>And Item name is the same as it was on the item&apos;s page</string>
+              <string>And Check</string>
+            </steps>
+          </scenario>
+          <storyPath>labjbehave/stories.story</storyPath>
+          <allowed>true</allowed>
+          <normalPerformableScenario>
+            <parameters/>
+            <givenStories/>
+            <beforeSteps>
+              <matches/>
+              <results>
+                <silent>
+                  <step>labjbehave.CartSteps.beforeScenario()</step>
+                  <type>SUCCESSFUL</type>
+                  <durationInMillis>3335</durationInMillis>
+                  <start>1514544643036</start>
+                  <end>1514544646371</end>
+                </silent>
+              </results>
+            </beforeSteps>
+            <steps>
+              <matches>
+                <stepMatch>
+                  <type>GIVEN</type>
+                  <annotatedPattern>Opened start_catalog</annotatedPattern>
+                  <resolvedPattern>Opened\s+start_catalog</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>THEN</type>
+                  <annotatedPattern>Item at position $position has quantity $quantity</annotatedPattern>
+                  <resolvedPattern>Item\s+at\s+position\s+(.*)\s+has\s+quantity\s+(.*)</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>WHEN</type>
+                  <annotatedPattern>Click &quot;Buy&quot;</annotatedPattern>
+                  <resolvedPattern>Click\s+&quot;Buy&quot;</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>WHEN</type>
+                  <annotatedPattern>Choose item_$number</annotatedPattern>
+                  <resolvedPattern>Choose\s+item_(.*)</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>THEN</type>
+                  <annotatedPattern>Item name is the same as it was on the item&apos;s page</annotatedPattern>
+                  <resolvedPattern>Item\s+name\s+is\s+the\s+same\s+as\s+it\s+was\s+on\s+the\s+item&apos;s\s+page</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>THEN</type>
+                  <annotatedPattern>Check</annotatedPattern>
+                  <resolvedPattern>Check</resolvedPattern>
+                </stepMatch>
+              </matches>
+              <results>
+                <successful>
+                  <step>Given Opened start_catalog</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>Given Opened start_catalog</parametrisedStep>
+                  <durationInMillis>8707</durationInMillis>
+                  <start>1514544646371</start>
+                  <end>1514544655078</end>
+                </successful>
+                <successful>
+                  <step>When Choose item_1</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>When Choose item_1</parametrisedStep>
+                  <durationInMillis>2046</durationInMillis>
+                  <start>1514544655080</start>
+                  <end>1514544657126</end>
+                </successful>
+                <successful>
+                  <step>And Click &quot;Buy&quot;</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>And Click &quot;Buy&quot;</parametrisedStep>
+                  <durationInMillis>5312</durationInMillis>
+                  <start>1514544657127</start>
+                  <end>1514544662439</end>
+                </successful>
+                <successful>
+                  <step>Then Item at position 1 has quantity 1</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>Then Item at position ｟1｠ has quantity ｟1｠</parametrisedStep>
+                  <durationInMillis>57</durationInMillis>
+                  <start>1514544662440</start>
+                  <end>1514544662497</end>
+                </successful>
+                <successful>
+                  <step>And Item name is the same as it was on the item&apos;s page</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>And Item name is the same as it was on the item&apos;s page</parametrisedStep>
+                  <durationInMillis>116</durationInMillis>
+                  <start>1514544662498</start>
+                  <end>1514544662614</end>
+                </successful>
+                <successful>
+                  <step>And Check</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>And Check</parametrisedStep>
+                  <durationInMillis>204</durationInMillis>
+                  <start>1514544662614</start>
+                  <end>1514544662818</end>
+                </successful>
+              </results>
+            </steps>
+            <afterSteps>
+              <matches/>
+              <results>
+                <silent>
+                  <step>labjbehave.CartSteps.afterScenario()</step>
+                  <type>SUCCESSFUL</type>
+                  <durationInMillis>1005</durationInMillis>
+                  <start>1514544662819</start>
+                  <end>1514544663824</end>
+                </silent>
+              </results>
+            </afterSteps>
+            <storyAndScenarioMeta>
+              <properties/>
+            </storyAndScenarioMeta>
+            <scenario>
+              <title>2 simple_purchase</title>
+              <meta>
+                <properties/>
+              </meta>
+              <givenStories>
+                <givenStories/>
+                <givenStoriesAsString></givenStoriesAsString>
+                <examplesTable>
+                  <tableAsString></tableAsString>
+                  <tableTransformers>
+                    <transformers>
+                      <entry>
+                        <string>FORMATTING</string>
+                        <formatting/>
+                      </entry>
+                      <entry>
+                        <string>REPLACING</string>
+                        <replacing/>
+                      </entry>
+                      <entry>
+                        <string>FROM_LANDSCAPE</string>
+                        <fromLandscape/>
+                      </entry>
+                    </transformers>
+                  </tableTransformers>
+                  <headers/>
+                  <data/>
+                  <properties>
+                    <properties>
+                      <property name="ignorableSeparator" value="|--"/>
+                      <property name="valueSeparator" value="|"/>
+                      <property name="headerSeparator" value="|"/>
+                    </properties>
+                  </properties>
+                  <propertiesAsString></propertiesAsString>
+                  <namedParameters/>
+                </examplesTable>
+              </givenStories>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="ignorableSeparator" value="|--"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="headerSeparator" value="|"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+              <steps>
+                <string>Given Opened start_catalog</string>
+                <string>When Choose item_1</string>
+                <string>And Click &quot;Buy&quot;</string>
+                <string>Then Item at position 1 has quantity 1</string>
+                <string>And Item name is the same as it was on the item&apos;s page</string>
+                <string>And Check</string>
+              </steps>
+            </scenario>
+          </normalPerformableScenario>
+          <examplePerformableScenarios/>
+          <status>SUCCESSFUL</status>
+        </performableScenario>
+        <performableScenario>
+          <scenario>
+            <title>3 delete_item</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="ignorableSeparator" value="|--"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="headerSeparator" value="|"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="ignorableSeparator" value="|--"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="headerSeparator" value="|"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+            <steps>
+              <string>Given Opened start_catalog with cart fulfilled with quantity 2 of first element from start_catalog</string>
+              <string>When Click on cart button on menu bar</string>
+              <string>And Click &quot;delete from cart&quot;</string>
+              <string>Then Cart displays &quot;Cart is empty&quot;</string>
+            </steps>
+          </scenario>
+          <storyPath>labjbehave/stories.story</storyPath>
+          <allowed>true</allowed>
+          <normalPerformableScenario>
+            <parameters/>
+            <givenStories/>
+            <beforeSteps>
+              <matches/>
+              <results>
+                <silent>
+                  <step>labjbehave.CartSteps.beforeScenario()</step>
+                  <type>SUCCESSFUL</type>
+                  <durationInMillis>3312</durationInMillis>
+                  <start>1514544663825</start>
+                  <end>1514544667137</end>
+                </silent>
+              </results>
+            </beforeSteps>
+            <steps>
+              <matches>
+                <stepMatch>
+                  <type>WHEN</type>
+                  <annotatedPattern>Click on cart button on menu bar</annotatedPattern>
+                  <resolvedPattern>Click\s+on\s+cart\s+button\s+on\s+menu\s+bar</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>THEN</type>
+                  <annotatedPattern>Cart displays &quot;Cart is empty&quot;</annotatedPattern>
+                  <resolvedPattern>Cart\s+displays\s+&quot;Cart\s+is\s+empty&quot;</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>GIVEN</type>
+                  <annotatedPattern>Opened start_catalog with cart fulfilled with quantity $ of first element from start_catalog</annotatedPattern>
+                  <resolvedPattern>Opened\s+start_catalog\s+with\s+cart\s+fulfilled\s+with\s+quantity\s+(.*)\s+of\s+first\s+element\s+from\s+start_catalog</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>WHEN</type>
+                  <annotatedPattern>Click &quot;delete from cart&quot;</annotatedPattern>
+                  <resolvedPattern>Click\s+&quot;delete\s+from\s+cart&quot;</resolvedPattern>
+                </stepMatch>
+              </matches>
+              <results>
+                <successful>
+                  <step>Given Opened start_catalog with cart fulfilled with quantity 2 of first element from start_catalog</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>Given Opened start_catalog with cart fulfilled with quantity ｟2｠ of first element from start_catalog</parametrisedStep>
+                  <durationInMillis>25782</durationInMillis>
+                  <start>1514544667137</start>
+                  <end>1514544692919</end>
+                </successful>
+                <successful>
+                  <step>When Click on cart button on menu bar</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>When Click on cart button on menu bar</parametrisedStep>
+                  <durationInMillis>3324</durationInMillis>
+                  <start>1514544692920</start>
+                  <end>1514544696244</end>
+                </successful>
+                <successful>
+                  <step>And Click &quot;delete from cart&quot;</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>And Click &quot;delete from cart&quot;</parametrisedStep>
+                  <durationInMillis>4332</durationInMillis>
+                  <start>1514544696244</start>
+                  <end>1514544700576</end>
+                </successful>
+                <successful>
+                  <step>Then Cart displays &quot;Cart is empty&quot;</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>Then Cart displays &quot;Cart is empty&quot;</parametrisedStep>
+                  <durationInMillis>17072</durationInMillis>
+                  <start>1514544700577</start>
+                  <end>1514544717649</end>
+                </successful>
+              </results>
+            </steps>
+            <afterSteps>
+              <matches/>
+              <results>
+                <silent>
+                  <step>labjbehave.CartSteps.afterScenario()</step>
+                  <type>SUCCESSFUL</type>
+                  <durationInMillis>1125</durationInMillis>
+                  <start>1514544717651</start>
+                  <end>1514544718776</end>
+                </silent>
+              </results>
+            </afterSteps>
+            <storyAndScenarioMeta>
+              <properties/>
+            </storyAndScenarioMeta>
+            <scenario>
+              <title>3 delete_item</title>
+              <meta>
+                <properties/>
+              </meta>
+              <givenStories>
+                <givenStories/>
+                <givenStoriesAsString></givenStoriesAsString>
+                <examplesTable>
+                  <tableAsString></tableAsString>
+                  <tableTransformers>
+                    <transformers>
+                      <entry>
+                        <string>FORMATTING</string>
+                        <formatting/>
+                      </entry>
+                      <entry>
+                        <string>REPLACING</string>
+                        <replacing/>
+                      </entry>
+                      <entry>
+                        <string>FROM_LANDSCAPE</string>
+                        <fromLandscape/>
+                      </entry>
+                    </transformers>
+                  </tableTransformers>
+                  <headers/>
+                  <data/>
+                  <properties>
+                    <properties>
+                      <property name="ignorableSeparator" value="|--"/>
+                      <property name="valueSeparator" value="|"/>
+                      <property name="headerSeparator" value="|"/>
+                    </properties>
+                  </properties>
+                  <propertiesAsString></propertiesAsString>
+                  <namedParameters/>
+                </examplesTable>
+              </givenStories>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="ignorableSeparator" value="|--"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="headerSeparator" value="|"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+              <steps>
+                <string>Given Opened start_catalog with cart fulfilled with quantity 2 of first element from start_catalog</string>
+                <string>When Click on cart button on menu bar</string>
+                <string>And Click &quot;delete from cart&quot;</string>
+                <string>Then Cart displays &quot;Cart is empty&quot;</string>
+              </steps>
+            </scenario>
+          </normalPerformableScenario>
+          <examplePerformableScenarios/>
+          <status>SUCCESSFUL</status>
+        </performableScenario>
+        <performableScenario>
+          <scenario>
+            <title>4 increase_quantity (“+”)</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="ignorableSeparator" value="|--"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="headerSeparator" value="|"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="ignorableSeparator" value="|--"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="headerSeparator" value="|"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+            <steps>
+              <string>Given Opened start_catalog with cart fulfilled with quantity 2 of first element from start_catalog</string>
+              <string>When Click on cart button on menu bar</string>
+              <string>And Click 1 times + button</string>
+              <string>Then Item at position 1 has quantity 3</string>
+              <string>And Item name is the same as it was on the item&apos;s page</string>
+              <string>And Check</string>
+            </steps>
+          </scenario>
+          <storyPath>labjbehave/stories.story</storyPath>
+          <allowed>true</allowed>
+          <normalPerformableScenario>
+            <parameters/>
+            <givenStories/>
+            <beforeSteps>
+              <matches/>
+              <results>
+                <silent>
+                  <step>labjbehave.CartSteps.beforeScenario()</step>
+                  <type>SUCCESSFUL</type>
+                  <durationInMillis>3333</durationInMillis>
+                  <start>1514544718778</start>
+                  <end>1514544722111</end>
+                </silent>
+              </results>
+            </beforeSteps>
+            <steps>
+              <matches>
+                <stepMatch>
+                  <type>WHEN</type>
+                  <annotatedPattern>Click on cart button on menu bar</annotatedPattern>
+                  <resolvedPattern>Click\s+on\s+cart\s+button\s+on\s+menu\s+bar</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>THEN</type>
+                  <annotatedPattern>Item at position $position has quantity $quantity</annotatedPattern>
+                  <resolvedPattern>Item\s+at\s+position\s+(.*)\s+has\s+quantity\s+(.*)</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>WHEN</type>
+                  <annotatedPattern>Click $number times \+ button</annotatedPattern>
+                  <resolvedPattern>Click\s+(.*)\s+times\s+\+\s+button</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>GIVEN</type>
+                  <annotatedPattern>Opened start_catalog with cart fulfilled with quantity $ of first element from start_catalog</annotatedPattern>
+                  <resolvedPattern>Opened\s+start_catalog\s+with\s+cart\s+fulfilled\s+with\s+quantity\s+(.*)\s+of\s+first\s+element\s+from\s+start_catalog</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>THEN</type>
+                  <annotatedPattern>Item name is the same as it was on the item&apos;s page</annotatedPattern>
+                  <resolvedPattern>Item\s+name\s+is\s+the\s+same\s+as\s+it\s+was\s+on\s+the\s+item&apos;s\s+page</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>THEN</type>
+                  <annotatedPattern>Check</annotatedPattern>
+                  <resolvedPattern>Check</resolvedPattern>
+                </stepMatch>
+              </matches>
+              <results>
+                <successful>
+                  <step>Given Opened start_catalog with cart fulfilled with quantity 2 of first element from start_catalog</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>Given Opened start_catalog with cart fulfilled with quantity ｟2｠ of first element from start_catalog</parametrisedStep>
+                  <durationInMillis>27096</durationInMillis>
+                  <start>1514544722111</start>
+                  <end>1514544749207</end>
+                </successful>
+                <successful>
+                  <step>When Click on cart button on menu bar</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>When Click on cart button on menu bar</parametrisedStep>
+                  <durationInMillis>3308</durationInMillis>
+                  <start>1514544749207</start>
+                  <end>1514544752515</end>
+                </successful>
+                <successful>
+                  <step>And Click 1 times + button</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>And Click ｟1｠ times + button</parametrisedStep>
+                  <durationInMillis>3202</durationInMillis>
+                  <start>1514544752515</start>
+                  <end>1514544755717</end>
+                </successful>
+                <successful>
+                  <step>Then Item at position 1 has quantity 3</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>Then Item at position ｟1｠ has quantity ｟3｠</parametrisedStep>
+                  <durationInMillis>70</durationInMillis>
+                  <start>1514544755718</start>
+                  <end>1514544755788</end>
+                </successful>
+                <successful>
+                  <step>And Item name is the same as it was on the item&apos;s page</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>And Item name is the same as it was on the item&apos;s page</parametrisedStep>
+                  <durationInMillis>106</durationInMillis>
+                  <start>1514544755789</start>
+                  <end>1514544755895</end>
+                </successful>
+                <successful>
+                  <step>And Check</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>And Check</parametrisedStep>
+                  <durationInMillis>185</durationInMillis>
+                  <start>1514544755895</start>
+                  <end>1514544756080</end>
+                </successful>
+              </results>
+            </steps>
+            <afterSteps>
+              <matches/>
+              <results>
+                <silent>
+                  <step>labjbehave.CartSteps.afterScenario()</step>
+                  <type>SUCCESSFUL</type>
+                  <durationInMillis>958</durationInMillis>
+                  <start>1514544756080</start>
+                  <end>1514544757038</end>
+                </silent>
+              </results>
+            </afterSteps>
+            <storyAndScenarioMeta>
+              <properties/>
+            </storyAndScenarioMeta>
+            <scenario>
+              <title>4 increase_quantity (“+”)</title>
+              <meta>
+                <properties/>
+              </meta>
+              <givenStories>
+                <givenStories/>
+                <givenStoriesAsString></givenStoriesAsString>
+                <examplesTable>
+                  <tableAsString></tableAsString>
+                  <tableTransformers>
+                    <transformers>
+                      <entry>
+                        <string>FORMATTING</string>
+                        <formatting/>
+                      </entry>
+                      <entry>
+                        <string>REPLACING</string>
+                        <replacing/>
+                      </entry>
+                      <entry>
+                        <string>FROM_LANDSCAPE</string>
+                        <fromLandscape/>
+                      </entry>
+                    </transformers>
+                  </tableTransformers>
+                  <headers/>
+                  <data/>
+                  <properties>
+                    <properties>
+                      <property name="ignorableSeparator" value="|--"/>
+                      <property name="valueSeparator" value="|"/>
+                      <property name="headerSeparator" value="|"/>
+                    </properties>
+                  </properties>
+                  <propertiesAsString></propertiesAsString>
+                  <namedParameters/>
+                </examplesTable>
+              </givenStories>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="ignorableSeparator" value="|--"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="headerSeparator" value="|"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+              <steps>
+                <string>Given Opened start_catalog with cart fulfilled with quantity 2 of first element from start_catalog</string>
+                <string>When Click on cart button on menu bar</string>
+                <string>And Click 1 times + button</string>
+                <string>Then Item at position 1 has quantity 3</string>
+                <string>And Item name is the same as it was on the item&apos;s page</string>
+                <string>And Check</string>
+              </steps>
+            </scenario>
+          </normalPerformableScenario>
+          <examplePerformableScenarios/>
+          <status>SUCCESSFUL</status>
+        </performableScenario>
+        <performableScenario>
+          <scenario>
+            <title>5 decrease quantity (“-”)</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="ignorableSeparator" value="|--"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="headerSeparator" value="|"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="ignorableSeparator" value="|--"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="headerSeparator" value="|"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+            <steps>
+              <string>Given Opened start_catalog with cart fulfilled with quantity 2 of first element from start_catalog</string>
+              <string>When Click on cart button on menu bar</string>
+              <string>And Click 1 times - button</string>
+              <string>Then Item at position 1 has quantity 1</string>
+              <string>And Item name is the same as it was on the item&apos;s page</string>
+              <string>And Check</string>
+            </steps>
+          </scenario>
+          <storyPath>labjbehave/stories.story</storyPath>
+          <allowed>true</allowed>
+          <normalPerformableScenario>
+            <parameters/>
+            <givenStories/>
+            <beforeSteps>
+              <matches/>
+              <results>
+                <silent>
+                  <step>labjbehave.CartSteps.beforeScenario()</step>
+                  <type>SUCCESSFUL</type>
+                  <durationInMillis>3398</durationInMillis>
+                  <start>1514544757040</start>
+                  <end>1514544760438</end>
+                </silent>
+              </results>
+            </beforeSteps>
+            <steps>
+              <matches>
+                <stepMatch>
+                  <type>WHEN</type>
+                  <annotatedPattern>Click on cart button on menu bar</annotatedPattern>
+                  <resolvedPattern>Click\s+on\s+cart\s+button\s+on\s+menu\s+bar</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>THEN</type>
+                  <annotatedPattern>Item at position $position has quantity $quantity</annotatedPattern>
+                  <resolvedPattern>Item\s+at\s+position\s+(.*)\s+has\s+quantity\s+(.*)</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>GIVEN</type>
+                  <annotatedPattern>Opened start_catalog with cart fulfilled with quantity $ of first element from start_catalog</annotatedPattern>
+                  <resolvedPattern>Opened\s+start_catalog\s+with\s+cart\s+fulfilled\s+with\s+quantity\s+(.*)\s+of\s+first\s+element\s+from\s+start_catalog</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>WHEN</type>
+                  <annotatedPattern>Click $number times - button</annotatedPattern>
+                  <resolvedPattern>Click\s+(.*)\s+times\s+-\s+button</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>THEN</type>
+                  <annotatedPattern>Item name is the same as it was on the item&apos;s page</annotatedPattern>
+                  <resolvedPattern>Item\s+name\s+is\s+the\s+same\s+as\s+it\s+was\s+on\s+the\s+item&apos;s\s+page</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>THEN</type>
+                  <annotatedPattern>Check</annotatedPattern>
+                  <resolvedPattern>Check</resolvedPattern>
+                </stepMatch>
+              </matches>
+              <results>
+                <successful>
+                  <step>Given Opened start_catalog with cart fulfilled with quantity 2 of first element from start_catalog</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>Given Opened start_catalog with cart fulfilled with quantity ｟2｠ of first element from start_catalog</parametrisedStep>
+                  <durationInMillis>26344</durationInMillis>
+                  <start>1514544760438</start>
+                  <end>1514544786782</end>
+                </successful>
+                <successful>
+                  <step>When Click on cart button on menu bar</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>When Click on cart button on menu bar</parametrisedStep>
+                  <durationInMillis>3407</durationInMillis>
+                  <start>1514544786783</start>
+                  <end>1514544790190</end>
+                </successful>
+                <successful>
+                  <step>And Click 1 times - button</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>And Click ｟1｠ times - button</parametrisedStep>
+                  <durationInMillis>3188</durationInMillis>
+                  <start>1514544790190</start>
+                  <end>1514544793378</end>
+                </successful>
+                <successful>
+                  <step>Then Item at position 1 has quantity 1</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>Then Item at position ｟1｠ has quantity ｟1｠</parametrisedStep>
+                  <durationInMillis>61</durationInMillis>
+                  <start>1514544793378</start>
+                  <end>1514544793439</end>
+                </successful>
+                <successful>
+                  <step>And Item name is the same as it was on the item&apos;s page</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>And Item name is the same as it was on the item&apos;s page</parametrisedStep>
+                  <durationInMillis>105</durationInMillis>
+                  <start>1514544793440</start>
+                  <end>1514544793545</end>
+                </successful>
+                <successful>
+                  <step>And Check</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>And Check</parametrisedStep>
+                  <durationInMillis>179</durationInMillis>
+                  <start>1514544793546</start>
+                  <end>1514544793725</end>
+                </successful>
+              </results>
+            </steps>
+            <afterSteps>
+              <matches/>
+              <results>
+                <silent>
+                  <step>labjbehave.CartSteps.afterScenario()</step>
+                  <type>SUCCESSFUL</type>
+                  <durationInMillis>982</durationInMillis>
+                  <start>1514544793726</start>
+                  <end>1514544794708</end>
+                </silent>
+              </results>
+            </afterSteps>
+            <storyAndScenarioMeta>
+              <properties/>
+            </storyAndScenarioMeta>
+            <scenario>
+              <title>5 decrease quantity (“-”)</title>
+              <meta>
+                <properties/>
+              </meta>
+              <givenStories>
+                <givenStories/>
+                <givenStoriesAsString></givenStoriesAsString>
+                <examplesTable>
+                  <tableAsString></tableAsString>
+                  <tableTransformers>
+                    <transformers>
+                      <entry>
+                        <string>FORMATTING</string>
+                        <formatting/>
+                      </entry>
+                      <entry>
+                        <string>REPLACING</string>
+                        <replacing/>
+                      </entry>
+                      <entry>
+                        <string>FROM_LANDSCAPE</string>
+                        <fromLandscape/>
+                      </entry>
+                    </transformers>
+                  </tableTransformers>
+                  <headers/>
+                  <data/>
+                  <properties>
+                    <properties>
+                      <property name="ignorableSeparator" value="|--"/>
+                      <property name="valueSeparator" value="|"/>
+                      <property name="headerSeparator" value="|"/>
+                    </properties>
+                  </properties>
+                  <propertiesAsString></propertiesAsString>
+                  <namedParameters/>
+                </examplesTable>
+              </givenStories>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="ignorableSeparator" value="|--"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="headerSeparator" value="|"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+              <steps>
+                <string>Given Opened start_catalog with cart fulfilled with quantity 2 of first element from start_catalog</string>
+                <string>When Click on cart button on menu bar</string>
+                <string>And Click 1 times - button</string>
+                <string>Then Item at position 1 has quantity 1</string>
+                <string>And Item name is the same as it was on the item&apos;s page</string>
+                <string>And Check</string>
+              </steps>
+            </scenario>
+          </normalPerformableScenario>
+          <examplePerformableScenarios/>
+          <status>SUCCESSFUL</status>
+        </performableScenario>
+        <performableScenario>
+          <scenario>
+            <title>6 enter_quantity_by_keyboard (correct value)</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="ignorableSeparator" value="|--"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="headerSeparator" value="|"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="ignorableSeparator" value="|--"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="headerSeparator" value="|"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+            <steps>
+              <string>Given Opened start_catalog</string>
+              <string>When Choose item_1</string>
+              <string>And Click &quot;Buy&quot;</string>
+              <string>And Input quantity 10</string>
+              <string>Then Item at position 1 has quantity 10</string>
+              <string>And Item name is the same as it was on the item&apos;s page</string>
+              <string>And Check</string>
+            </steps>
+          </scenario>
+          <storyPath>labjbehave/stories.story</storyPath>
+          <allowed>true</allowed>
+          <normalPerformableScenario>
+            <parameters/>
+            <givenStories/>
+            <beforeSteps>
+              <matches/>
+              <results>
+                <silent>
+                  <step>labjbehave.CartSteps.beforeScenario()</step>
+                  <type>SUCCESSFUL</type>
+                  <durationInMillis>3346</durationInMillis>
+                  <start>1514544794710</start>
+                  <end>1514544798056</end>
+                </silent>
+              </results>
+            </beforeSteps>
+            <steps>
+              <matches>
+                <stepMatch>
+                  <type>GIVEN</type>
+                  <annotatedPattern>Opened start_catalog</annotatedPattern>
+                  <resolvedPattern>Opened\s+start_catalog</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>WHEN</type>
+                  <annotatedPattern>Input quantity $quantity</annotatedPattern>
+                  <resolvedPattern>Input\s+quantity\s+(.*)</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>THEN</type>
+                  <annotatedPattern>Item at position $position has quantity $quantity</annotatedPattern>
+                  <resolvedPattern>Item\s+at\s+position\s+(.*)\s+has\s+quantity\s+(.*)</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>WHEN</type>
+                  <annotatedPattern>Click &quot;Buy&quot;</annotatedPattern>
+                  <resolvedPattern>Click\s+&quot;Buy&quot;</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>WHEN</type>
+                  <annotatedPattern>Choose item_$number</annotatedPattern>
+                  <resolvedPattern>Choose\s+item_(.*)</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>THEN</type>
+                  <annotatedPattern>Item name is the same as it was on the item&apos;s page</annotatedPattern>
+                  <resolvedPattern>Item\s+name\s+is\s+the\s+same\s+as\s+it\s+was\s+on\s+the\s+item&apos;s\s+page</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>THEN</type>
+                  <annotatedPattern>Check</annotatedPattern>
+                  <resolvedPattern>Check</resolvedPattern>
+                </stepMatch>
+              </matches>
+              <results>
+                <successful>
+                  <step>Given Opened start_catalog</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>Given Opened start_catalog</parametrisedStep>
+                  <durationInMillis>9628</durationInMillis>
+                  <start>1514544798056</start>
+                  <end>1514544807684</end>
+                </successful>
+                <successful>
+                  <step>When Choose item_1</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>When Choose item_1</parametrisedStep>
+                  <durationInMillis>1711</durationInMillis>
+                  <start>1514544807685</start>
+                  <end>1514544809396</end>
+                </successful>
+                <successful>
+                  <step>And Click &quot;Buy&quot;</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>And Click &quot;Buy&quot;</parametrisedStep>
+                  <durationInMillis>4781</durationInMillis>
+                  <start>1514544809397</start>
+                  <end>1514544814178</end>
+                </successful>
+                <successful>
+                  <step>And Input quantity 10</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>And Input quantity ｟10｠</parametrisedStep>
+                  <durationInMillis>6301</durationInMillis>
+                  <start>1514544814179</start>
+                  <end>1514544820480</end>
+                </successful>
+                <successful>
+                  <step>Then Item at position 1 has quantity 10</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>Then Item at position ｟1｠ has quantity ｟10｠</parametrisedStep>
+                  <durationInMillis>73</durationInMillis>
+                  <start>1514544820480</start>
+                  <end>1514544820553</end>
+                </successful>
+                <successful>
+                  <step>And Item name is the same as it was on the item&apos;s page</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>And Item name is the same as it was on the item&apos;s page</parametrisedStep>
+                  <durationInMillis>110</durationInMillis>
+                  <start>1514544820553</start>
+                  <end>1514544820663</end>
+                </successful>
+                <successful>
+                  <step>And Check</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>And Check</parametrisedStep>
+                  <durationInMillis>180</durationInMillis>
+                  <start>1514544820663</start>
+                  <end>1514544820843</end>
+                </successful>
+              </results>
+            </steps>
+            <afterSteps>
+              <matches/>
+              <results>
+                <silent>
+                  <step>labjbehave.CartSteps.afterScenario()</step>
+                  <type>SUCCESSFUL</type>
+                  <durationInMillis>915</durationInMillis>
+                  <start>1514544820844</start>
+                  <end>1514544821759</end>
+                </silent>
+              </results>
+            </afterSteps>
+            <storyAndScenarioMeta>
+              <properties/>
+            </storyAndScenarioMeta>
+            <scenario>
+              <title>6 enter_quantity_by_keyboard (correct value)</title>
+              <meta>
+                <properties/>
+              </meta>
+              <givenStories>
+                <givenStories/>
+                <givenStoriesAsString></givenStoriesAsString>
+                <examplesTable>
+                  <tableAsString></tableAsString>
+                  <tableTransformers>
+                    <transformers>
+                      <entry>
+                        <string>FORMATTING</string>
+                        <formatting/>
+                      </entry>
+                      <entry>
+                        <string>REPLACING</string>
+                        <replacing/>
+                      </entry>
+                      <entry>
+                        <string>FROM_LANDSCAPE</string>
+                        <fromLandscape/>
+                      </entry>
+                    </transformers>
+                  </tableTransformers>
+                  <headers/>
+                  <data/>
+                  <properties>
+                    <properties>
+                      <property name="ignorableSeparator" value="|--"/>
+                      <property name="valueSeparator" value="|"/>
+                      <property name="headerSeparator" value="|"/>
+                    </properties>
+                  </properties>
+                  <propertiesAsString></propertiesAsString>
+                  <namedParameters/>
+                </examplesTable>
+              </givenStories>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="ignorableSeparator" value="|--"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="headerSeparator" value="|"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+              <steps>
+                <string>Given Opened start_catalog</string>
+                <string>When Choose item_1</string>
+                <string>And Click &quot;Buy&quot;</string>
+                <string>And Input quantity 10</string>
+                <string>Then Item at position 1 has quantity 10</string>
+                <string>And Item name is the same as it was on the item&apos;s page</string>
+                <string>And Check</string>
+              </steps>
+            </scenario>
+          </normalPerformableScenario>
+          <examplePerformableScenarios/>
+          <status>SUCCESSFUL</status>
+        </performableScenario>
+        <performableScenario>
+          <scenario>
+            <title>7 enter_quantity_by_keyboard (incorrect value)</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="ignorableSeparator" value="|--"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="headerSeparator" value="|"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="ignorableSeparator" value="|--"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="headerSeparator" value="|"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+            <steps>
+              <string>Given Opened start_catalog</string>
+              <string>When Choose item_1</string>
+              <string>And Click &quot;Buy&quot;</string>
+              <string>And Input quantity abc</string>
+              <string>Then Item at position 1 has quantity abc</string>
+              <string>And Item name is the same as it was on the item&apos;s page</string>
+              <string>And Check</string>
+            </steps>
+          </scenario>
+          <storyPath>labjbehave/stories.story</storyPath>
+          <allowed>true</allowed>
+          <normalPerformableScenario>
+            <parameters/>
+            <givenStories/>
+            <beforeSteps>
+              <matches/>
+              <results>
+                <silent>
+                  <step>labjbehave.CartSteps.beforeScenario()</step>
+                  <type>SUCCESSFUL</type>
+                  <durationInMillis>3328</durationInMillis>
+                  <start>1514544821760</start>
+                  <end>1514544825088</end>
+                </silent>
+              </results>
+            </beforeSteps>
+            <steps>
+              <matches>
+                <stepMatch>
+                  <type>GIVEN</type>
+                  <annotatedPattern>Opened start_catalog</annotatedPattern>
+                  <resolvedPattern>Opened\s+start_catalog</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>WHEN</type>
+                  <annotatedPattern>Input quantity $quantity</annotatedPattern>
+                  <resolvedPattern>Input\s+quantity\s+(.*)</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>THEN</type>
+                  <annotatedPattern>Item at position $position has quantity $quantity</annotatedPattern>
+                  <resolvedPattern>Item\s+at\s+position\s+(.*)\s+has\s+quantity\s+(.*)</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>WHEN</type>
+                  <annotatedPattern>Click &quot;Buy&quot;</annotatedPattern>
+                  <resolvedPattern>Click\s+&quot;Buy&quot;</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>WHEN</type>
+                  <annotatedPattern>Choose item_$number</annotatedPattern>
+                  <resolvedPattern>Choose\s+item_(.*)</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>THEN</type>
+                  <annotatedPattern>Item name is the same as it was on the item&apos;s page</annotatedPattern>
+                  <resolvedPattern>Item\s+name\s+is\s+the\s+same\s+as\s+it\s+was\s+on\s+the\s+item&apos;s\s+page</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>THEN</type>
+                  <annotatedPattern>Check</annotatedPattern>
+                  <resolvedPattern>Check</resolvedPattern>
+                </stepMatch>
+              </matches>
+              <results>
+                <successful>
+                  <step>Given Opened start_catalog</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>Given Opened start_catalog</parametrisedStep>
+                  <durationInMillis>9656</durationInMillis>
+                  <start>1514544825088</start>
+                  <end>1514544834744</end>
+                </successful>
+                <successful>
+                  <step>When Choose item_1</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>When Choose item_1</parametrisedStep>
+                  <durationInMillis>4589</durationInMillis>
+                  <start>1514544834744</start>
+                  <end>1514544839333</end>
+                </successful>
+                <successful>
+                  <step>And Click &quot;Buy&quot;</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>And Click &quot;Buy&quot;</parametrisedStep>
+                  <durationInMillis>3918</durationInMillis>
+                  <start>1514544839333</start>
+                  <end>1514544843251</end>
+                </successful>
+                <failed>
+                  <step>And Input quantity abc</step>
+                  <type>FAILED</type>
+                  <throwable>
+                    <detailMessage>And Input quantity abc</detailMessage>
+                    <cause class="org.jbehave.core.steps.ParameterConverters$ParameterConvertionFailed">
+                      <detailMessage>abc</detailMessage>
+                      <cause class="java.text.ParseException">
+                        <detailMessage>Unparseable number: &quot;abc&quot;</detailMessage>
+                        <stackTrace>
+                          <trace>java.base/java.text.NumberFormat.parse(NumberFormat.java:393)</trace>
+                          <trace>org.jbehave.core.steps.ParameterConverters$NumberConverter.convertValue(ParameterConverters.java:288)</trace>
+                          <trace>org.jbehave.core.steps.ParameterConverters.convert(ParameterConverters.java:195)</trace>
+                          <trace>org.jbehave.core.steps.StepCreator.convertParameterValues(StepCreator.java:405)</trace>
+                          <trace>org.jbehave.core.steps.StepCreator.access$1300(StepCreator.java:44)</trace>
+                          <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.parametriseStep(StepCreator.java:782)</trace>
+                          <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:730)</trace>
+                          <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
+                          <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)</trace>
+                          <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)</trace>
+                          <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)</trace>
+                          <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)</trace>
+                          <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                          <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                          <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                          <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                          <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                          <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                          <trace>java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)</trace>
+                          <trace>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)</trace>
+                          <trace>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)</trace>
+                          <trace>java.base/java.lang.Thread.run(Thread.java:844)</trace>
+                        </stackTrace>
+                        <suppressedExceptions class="empty-list"/>
+                        <errorOffset>0</errorOffset>
+                      </cause>
+                      <stackTrace>
+                        <trace>org.jbehave.core.steps.ParameterConverters$NumberConverter.convertValue(ParameterConverters.java:315)</trace>
+                        <trace>org.jbehave.core.steps.ParameterConverters.convert(ParameterConverters.java:195)</trace>
+                        <trace>org.jbehave.core.steps.StepCreator.convertParameterValues(StepCreator.java:405)</trace>
+                        <trace>org.jbehave.core.steps.StepCreator.access$1300(StepCreator.java:44)</trace>
+                        <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.parametriseStep(StepCreator.java:782)</trace>
+                        <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:730)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                        <trace>java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)</trace>
+                        <trace>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)</trace>
+                        <trace>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)</trace>
+                        <trace>java.base/java.lang.Thread.run(Thread.java:844)</trace>
+                      </stackTrace>
+                      <suppressedExceptions class="empty-list"/>
+                    </cause>
+                    <stackTrace>
+                      <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:755)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                      <trace>java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)</trace>
+                      <trace>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)</trace>
+                      <trace>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)</trace>
+                      <trace>java.base/java.lang.Thread.run(Thread.java:844)</trace>
+                    </stackTrace>
+                    <suppressedExceptions class="empty-list"/>
+                    <uuid>1934fb83-f83e-4e65-9827-d42d05fa7833</uuid>
+                  </throwable>
+                  <durationInMillis>2</durationInMillis>
+                  <start>1514544843251</start>
+                  <end>1514544843253</end>
+                </failed>
+                <notPerformed>
+                  <step>Then Item at position 1 has quantity abc</step>
+                  <type>NOT_PERFORMED</type>
+                  <durationInMillis>0</durationInMillis>
+                  <start>0</start>
+                  <end>0</end>
+                </notPerformed>
+                <notPerformed>
+                  <step>And Item name is the same as it was on the item&apos;s page</step>
+                  <type>NOT_PERFORMED</type>
+                  <parametrisedStep>And Item name is the same as it was on the item&apos;s page</parametrisedStep>
+                  <durationInMillis>0</durationInMillis>
+                  <start>0</start>
+                  <end>0</end>
+                </notPerformed>
+                <notPerformed>
+                  <step>And Check</step>
+                  <type>NOT_PERFORMED</type>
+                  <parametrisedStep>And Check</parametrisedStep>
+                  <durationInMillis>0</durationInMillis>
+                  <start>0</start>
+                  <end>0</end>
+                </notPerformed>
+              </results>
+            </steps>
+            <afterSteps>
+              <matches/>
+              <results>
+                <silent>
+                  <step>labjbehave.CartSteps.afterScenario()</step>
+                  <type>SUCCESSFUL</type>
+                  <durationInMillis>940</durationInMillis>
+                  <start>1514544843257</start>
+                  <end>1514544844197</end>
+                </silent>
+              </results>
+            </afterSteps>
+            <storyAndScenarioMeta>
+              <properties/>
+            </storyAndScenarioMeta>
+            <scenario>
+              <title>7 enter_quantity_by_keyboard (incorrect value)</title>
+              <meta>
+                <properties/>
+              </meta>
+              <givenStories>
+                <givenStories/>
+                <givenStoriesAsString></givenStoriesAsString>
+                <examplesTable>
+                  <tableAsString></tableAsString>
+                  <tableTransformers>
+                    <transformers>
+                      <entry>
+                        <string>FORMATTING</string>
+                        <formatting/>
+                      </entry>
+                      <entry>
+                        <string>REPLACING</string>
+                        <replacing/>
+                      </entry>
+                      <entry>
+                        <string>FROM_LANDSCAPE</string>
+                        <fromLandscape/>
+                      </entry>
+                    </transformers>
+                  </tableTransformers>
+                  <headers/>
+                  <data/>
+                  <properties>
+                    <properties>
+                      <property name="ignorableSeparator" value="|--"/>
+                      <property name="valueSeparator" value="|"/>
+                      <property name="headerSeparator" value="|"/>
+                    </properties>
+                  </properties>
+                  <propertiesAsString></propertiesAsString>
+                  <namedParameters/>
+                </examplesTable>
+              </givenStories>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="ignorableSeparator" value="|--"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="headerSeparator" value="|"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+              <steps>
+                <string>Given Opened start_catalog</string>
+                <string>When Choose item_1</string>
+                <string>And Click &quot;Buy&quot;</string>
+                <string>And Input quantity abc</string>
+                <string>Then Item at position 1 has quantity abc</string>
+                <string>And Item name is the same as it was on the item&apos;s page</string>
+                <string>And Check</string>
+              </steps>
+            </scenario>
+          </normalPerformableScenario>
+          <examplePerformableScenarios/>
+          <status>FAILED</status>
+        </performableScenario>
+      </scenarios>
+      <beforeSteps>
+        <results>
+          <silent>
+            <step>labjbehave.CartSteps.setup()</step>
+            <type>SUCCESSFUL</type>
+            <durationInMillis>4</durationInMillis>
+            <start>1514544622367</start>
+            <end>1514544622371</end>
+          </silent>
+        </results>
+      </beforeSteps>
+      <afterSteps/>
+      <timing>
+        <durationInMillis>221848</durationInMillis>
+        <start>1514544622366</start>
+        <end>1514544844214</end>
+      </timing>
+      <givenStory>false</givenStory>
+    </performableStory>
+  </stories>
+  <scenarios>
+    <performableScenario>
+      <scenario>
+        <title>1 quick_purchase</title>
+        <meta>
+          <properties/>
+        </meta>
+        <givenStories>
+          <givenStories/>
+          <givenStoriesAsString></givenStoriesAsString>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <properties>
+                <property name="ignorableSeparator" value="|--"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="headerSeparator" value="|"/>
+              </properties>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+          </examplesTable>
+        </givenStories>
+        <examplesTable>
+          <tableAsString></tableAsString>
+          <tableTransformers>
+            <transformers>
+              <entry>
+                <string>FORMATTING</string>
+                <formatting/>
+              </entry>
+              <entry>
+                <string>REPLACING</string>
+                <replacing/>
+              </entry>
+              <entry>
+                <string>FROM_LANDSCAPE</string>
+                <fromLandscape/>
+              </entry>
+            </transformers>
+          </tableTransformers>
+          <headers/>
+          <data/>
+          <properties>
+            <properties>
+              <property name="ignorableSeparator" value="|--"/>
+              <property name="valueSeparator" value="|"/>
+              <property name="headerSeparator" value="|"/>
+            </properties>
+          </properties>
+          <propertiesAsString></propertiesAsString>
+          <namedParameters/>
+        </examplesTable>
+        <steps>
+          <string>Given Opened start_catalog</string>
+          <string>When Click element`s 1 &quot;cart button&quot;</string>
+          <string>Then Item at position 1 has quantity 1</string>
+          <string>And Check</string>
+        </steps>
+      </scenario>
+      <storyPath>labjbehave/stories.story</storyPath>
+      <allowed>true</allowed>
+      <normalPerformableScenario>
+        <parameters/>
+        <givenStories/>
+        <beforeSteps>
+          <matches/>
+          <results>
+            <silent>
+              <step>labjbehave.CartSteps.beforeScenario()</step>
+              <type>SUCCESSFUL</type>
+              <durationInMillis>4272</durationInMillis>
+              <start>1514544622372</start>
+              <end>1514544626644</end>
+            </silent>
+          </results>
+        </beforeSteps>
+        <steps>
+          <matches>
+            <stepMatch>
+              <type>GIVEN</type>
+              <annotatedPattern>Opened start_catalog</annotatedPattern>
+              <resolvedPattern>Opened\s+start_catalog</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>THEN</type>
+              <annotatedPattern>Item at position $position has quantity $quantity</annotatedPattern>
+              <resolvedPattern>Item\s+at\s+position\s+(.*)\s+has\s+quantity\s+(.*)</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>WHEN</type>
+              <annotatedPattern>Click element`s $number &quot;cart button&quot;</annotatedPattern>
+              <resolvedPattern>Click\s+element`s\s+(.*)\s+&quot;cart\s+button&quot;</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>THEN</type>
+              <annotatedPattern>Check</annotatedPattern>
+              <resolvedPattern>Check</resolvedPattern>
+            </stepMatch>
+          </matches>
+          <results>
+            <successful>
+              <step>Given Opened start_catalog</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>Given Opened start_catalog</parametrisedStep>
+              <durationInMillis>9234</durationInMillis>
+              <start>1514544626644</start>
+              <end>1514544635878</end>
+            </successful>
+            <successful>
+              <step>When Click element`s 1 &quot;cart button&quot;</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>When Click element`s ｟1｠ &quot;cart button&quot;</parametrisedStep>
+              <durationInMillis>150</durationInMillis>
+              <start>1514544635879</start>
+              <end>1514544636029</end>
+            </successful>
+            <successful>
+              <step>Then Item at position 1 has quantity 1</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>Then Item at position ｟1｠ has quantity ｟1｠</parametrisedStep>
+              <durationInMillis>5425</durationInMillis>
+              <start>1514544636031</start>
+              <end>1514544641456</end>
+            </successful>
+            <successful>
+              <step>And Check</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>And Check</parametrisedStep>
+              <durationInMillis>206</durationInMillis>
+              <start>1514544641457</start>
+              <end>1514544641663</end>
+            </successful>
+          </results>
+        </steps>
+        <afterSteps>
+          <matches/>
+          <results>
+            <silent>
+              <step>labjbehave.CartSteps.afterScenario()</step>
+              <type>SUCCESSFUL</type>
+              <durationInMillis>1367</durationInMillis>
+              <start>1514544641664</start>
+              <end>1514544643031</end>
+            </silent>
+          </results>
+        </afterSteps>
+        <storyAndScenarioMeta>
+          <properties/>
+        </storyAndScenarioMeta>
+        <scenario>
+          <title>1 quick_purchase</title>
+          <meta>
+            <properties/>
+          </meta>
+          <givenStories>
+            <givenStories/>
+            <givenStoriesAsString></givenStoriesAsString>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="ignorableSeparator" value="|--"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="headerSeparator" value="|"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+          </givenStories>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <properties>
+                <property name="ignorableSeparator" value="|--"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="headerSeparator" value="|"/>
+              </properties>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+          </examplesTable>
+          <steps>
+            <string>Given Opened start_catalog</string>
+            <string>When Click element`s 1 &quot;cart button&quot;</string>
+            <string>Then Item at position 1 has quantity 1</string>
+            <string>And Check</string>
+          </steps>
+        </scenario>
+      </normalPerformableScenario>
+      <examplePerformableScenarios/>
+      <status>SUCCESSFUL</status>
+    </performableScenario>
+    <performableScenario>
+      <scenario>
+        <title>2 simple_purchase</title>
+        <meta>
+          <properties/>
+        </meta>
+        <givenStories>
+          <givenStories/>
+          <givenStoriesAsString></givenStoriesAsString>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <properties>
+                <property name="ignorableSeparator" value="|--"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="headerSeparator" value="|"/>
+              </properties>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+          </examplesTable>
+        </givenStories>
+        <examplesTable>
+          <tableAsString></tableAsString>
+          <tableTransformers>
+            <transformers>
+              <entry>
+                <string>FORMATTING</string>
+                <formatting/>
+              </entry>
+              <entry>
+                <string>REPLACING</string>
+                <replacing/>
+              </entry>
+              <entry>
+                <string>FROM_LANDSCAPE</string>
+                <fromLandscape/>
+              </entry>
+            </transformers>
+          </tableTransformers>
+          <headers/>
+          <data/>
+          <properties>
+            <properties>
+              <property name="ignorableSeparator" value="|--"/>
+              <property name="valueSeparator" value="|"/>
+              <property name="headerSeparator" value="|"/>
+            </properties>
+          </properties>
+          <propertiesAsString></propertiesAsString>
+          <namedParameters/>
+        </examplesTable>
+        <steps>
+          <string>Given Opened start_catalog</string>
+          <string>When Choose item_1</string>
+          <string>And Click &quot;Buy&quot;</string>
+          <string>Then Item at position 1 has quantity 1</string>
+          <string>And Item name is the same as it was on the item&apos;s page</string>
+          <string>And Check</string>
+        </steps>
+      </scenario>
+      <storyPath>labjbehave/stories.story</storyPath>
+      <allowed>true</allowed>
+      <normalPerformableScenario>
+        <parameters/>
+        <givenStories/>
+        <beforeSteps>
+          <matches/>
+          <results>
+            <silent>
+              <step>labjbehave.CartSteps.beforeScenario()</step>
+              <type>SUCCESSFUL</type>
+              <durationInMillis>3335</durationInMillis>
+              <start>1514544643036</start>
+              <end>1514544646371</end>
+            </silent>
+          </results>
+        </beforeSteps>
+        <steps>
+          <matches>
+            <stepMatch>
+              <type>GIVEN</type>
+              <annotatedPattern>Opened start_catalog</annotatedPattern>
+              <resolvedPattern>Opened\s+start_catalog</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>THEN</type>
+              <annotatedPattern>Item at position $position has quantity $quantity</annotatedPattern>
+              <resolvedPattern>Item\s+at\s+position\s+(.*)\s+has\s+quantity\s+(.*)</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>WHEN</type>
+              <annotatedPattern>Click &quot;Buy&quot;</annotatedPattern>
+              <resolvedPattern>Click\s+&quot;Buy&quot;</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>WHEN</type>
+              <annotatedPattern>Choose item_$number</annotatedPattern>
+              <resolvedPattern>Choose\s+item_(.*)</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>THEN</type>
+              <annotatedPattern>Item name is the same as it was on the item&apos;s page</annotatedPattern>
+              <resolvedPattern>Item\s+name\s+is\s+the\s+same\s+as\s+it\s+was\s+on\s+the\s+item&apos;s\s+page</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>THEN</type>
+              <annotatedPattern>Check</annotatedPattern>
+              <resolvedPattern>Check</resolvedPattern>
+            </stepMatch>
+          </matches>
+          <results>
+            <successful>
+              <step>Given Opened start_catalog</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>Given Opened start_catalog</parametrisedStep>
+              <durationInMillis>8707</durationInMillis>
+              <start>1514544646371</start>
+              <end>1514544655078</end>
+            </successful>
+            <successful>
+              <step>When Choose item_1</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>When Choose item_1</parametrisedStep>
+              <durationInMillis>2046</durationInMillis>
+              <start>1514544655080</start>
+              <end>1514544657126</end>
+            </successful>
+            <successful>
+              <step>And Click &quot;Buy&quot;</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>And Click &quot;Buy&quot;</parametrisedStep>
+              <durationInMillis>5312</durationInMillis>
+              <start>1514544657127</start>
+              <end>1514544662439</end>
+            </successful>
+            <successful>
+              <step>Then Item at position 1 has quantity 1</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>Then Item at position ｟1｠ has quantity ｟1｠</parametrisedStep>
+              <durationInMillis>57</durationInMillis>
+              <start>1514544662440</start>
+              <end>1514544662497</end>
+            </successful>
+            <successful>
+              <step>And Item name is the same as it was on the item&apos;s page</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>And Item name is the same as it was on the item&apos;s page</parametrisedStep>
+              <durationInMillis>116</durationInMillis>
+              <start>1514544662498</start>
+              <end>1514544662614</end>
+            </successful>
+            <successful>
+              <step>And Check</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>And Check</parametrisedStep>
+              <durationInMillis>204</durationInMillis>
+              <start>1514544662614</start>
+              <end>1514544662818</end>
+            </successful>
+          </results>
+        </steps>
+        <afterSteps>
+          <matches/>
+          <results>
+            <silent>
+              <step>labjbehave.CartSteps.afterScenario()</step>
+              <type>SUCCESSFUL</type>
+              <durationInMillis>1005</durationInMillis>
+              <start>1514544662819</start>
+              <end>1514544663824</end>
+            </silent>
+          </results>
+        </afterSteps>
+        <storyAndScenarioMeta>
+          <properties/>
+        </storyAndScenarioMeta>
+        <scenario>
+          <title>2 simple_purchase</title>
+          <meta>
+            <properties/>
+          </meta>
+          <givenStories>
+            <givenStories/>
+            <givenStoriesAsString></givenStoriesAsString>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="ignorableSeparator" value="|--"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="headerSeparator" value="|"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+          </givenStories>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <properties>
+                <property name="ignorableSeparator" value="|--"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="headerSeparator" value="|"/>
+              </properties>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+          </examplesTable>
+          <steps>
+            <string>Given Opened start_catalog</string>
+            <string>When Choose item_1</string>
+            <string>And Click &quot;Buy&quot;</string>
+            <string>Then Item at position 1 has quantity 1</string>
+            <string>And Item name is the same as it was on the item&apos;s page</string>
+            <string>And Check</string>
+          </steps>
+        </scenario>
+      </normalPerformableScenario>
+      <examplePerformableScenarios/>
+      <status>SUCCESSFUL</status>
+    </performableScenario>
+    <performableScenario>
+      <scenario>
+        <title>3 delete_item</title>
+        <meta>
+          <properties/>
+        </meta>
+        <givenStories>
+          <givenStories/>
+          <givenStoriesAsString></givenStoriesAsString>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <properties>
+                <property name="ignorableSeparator" value="|--"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="headerSeparator" value="|"/>
+              </properties>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+          </examplesTable>
+        </givenStories>
+        <examplesTable>
+          <tableAsString></tableAsString>
+          <tableTransformers>
+            <transformers>
+              <entry>
+                <string>FORMATTING</string>
+                <formatting/>
+              </entry>
+              <entry>
+                <string>REPLACING</string>
+                <replacing/>
+              </entry>
+              <entry>
+                <string>FROM_LANDSCAPE</string>
+                <fromLandscape/>
+              </entry>
+            </transformers>
+          </tableTransformers>
+          <headers/>
+          <data/>
+          <properties>
+            <properties>
+              <property name="ignorableSeparator" value="|--"/>
+              <property name="valueSeparator" value="|"/>
+              <property name="headerSeparator" value="|"/>
+            </properties>
+          </properties>
+          <propertiesAsString></propertiesAsString>
+          <namedParameters/>
+        </examplesTable>
+        <steps>
+          <string>Given Opened start_catalog with cart fulfilled with quantity 2 of first element from start_catalog</string>
+          <string>When Click on cart button on menu bar</string>
+          <string>And Click &quot;delete from cart&quot;</string>
+          <string>Then Cart displays &quot;Cart is empty&quot;</string>
+        </steps>
+      </scenario>
+      <storyPath>labjbehave/stories.story</storyPath>
+      <allowed>true</allowed>
+      <normalPerformableScenario>
+        <parameters/>
+        <givenStories/>
+        <beforeSteps>
+          <matches/>
+          <results>
+            <silent>
+              <step>labjbehave.CartSteps.beforeScenario()</step>
+              <type>SUCCESSFUL</type>
+              <durationInMillis>3312</durationInMillis>
+              <start>1514544663825</start>
+              <end>1514544667137</end>
+            </silent>
+          </results>
+        </beforeSteps>
+        <steps>
+          <matches>
+            <stepMatch>
+              <type>WHEN</type>
+              <annotatedPattern>Click on cart button on menu bar</annotatedPattern>
+              <resolvedPattern>Click\s+on\s+cart\s+button\s+on\s+menu\s+bar</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>THEN</type>
+              <annotatedPattern>Cart displays &quot;Cart is empty&quot;</annotatedPattern>
+              <resolvedPattern>Cart\s+displays\s+&quot;Cart\s+is\s+empty&quot;</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>GIVEN</type>
+              <annotatedPattern>Opened start_catalog with cart fulfilled with quantity $ of first element from start_catalog</annotatedPattern>
+              <resolvedPattern>Opened\s+start_catalog\s+with\s+cart\s+fulfilled\s+with\s+quantity\s+(.*)\s+of\s+first\s+element\s+from\s+start_catalog</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>WHEN</type>
+              <annotatedPattern>Click &quot;delete from cart&quot;</annotatedPattern>
+              <resolvedPattern>Click\s+&quot;delete\s+from\s+cart&quot;</resolvedPattern>
+            </stepMatch>
+          </matches>
+          <results>
+            <successful>
+              <step>Given Opened start_catalog with cart fulfilled with quantity 2 of first element from start_catalog</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>Given Opened start_catalog with cart fulfilled with quantity ｟2｠ of first element from start_catalog</parametrisedStep>
+              <durationInMillis>25782</durationInMillis>
+              <start>1514544667137</start>
+              <end>1514544692919</end>
+            </successful>
+            <successful>
+              <step>When Click on cart button on menu bar</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>When Click on cart button on menu bar</parametrisedStep>
+              <durationInMillis>3324</durationInMillis>
+              <start>1514544692920</start>
+              <end>1514544696244</end>
+            </successful>
+            <successful>
+              <step>And Click &quot;delete from cart&quot;</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>And Click &quot;delete from cart&quot;</parametrisedStep>
+              <durationInMillis>4332</durationInMillis>
+              <start>1514544696244</start>
+              <end>1514544700576</end>
+            </successful>
+            <successful>
+              <step>Then Cart displays &quot;Cart is empty&quot;</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>Then Cart displays &quot;Cart is empty&quot;</parametrisedStep>
+              <durationInMillis>17072</durationInMillis>
+              <start>1514544700577</start>
+              <end>1514544717649</end>
+            </successful>
+          </results>
+        </steps>
+        <afterSteps>
+          <matches/>
+          <results>
+            <silent>
+              <step>labjbehave.CartSteps.afterScenario()</step>
+              <type>SUCCESSFUL</type>
+              <durationInMillis>1125</durationInMillis>
+              <start>1514544717651</start>
+              <end>1514544718776</end>
+            </silent>
+          </results>
+        </afterSteps>
+        <storyAndScenarioMeta>
+          <properties/>
+        </storyAndScenarioMeta>
+        <scenario>
+          <title>3 delete_item</title>
+          <meta>
+            <properties/>
+          </meta>
+          <givenStories>
+            <givenStories/>
+            <givenStoriesAsString></givenStoriesAsString>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="ignorableSeparator" value="|--"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="headerSeparator" value="|"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+          </givenStories>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <properties>
+                <property name="ignorableSeparator" value="|--"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="headerSeparator" value="|"/>
+              </properties>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+          </examplesTable>
+          <steps>
+            <string>Given Opened start_catalog with cart fulfilled with quantity 2 of first element from start_catalog</string>
+            <string>When Click on cart button on menu bar</string>
+            <string>And Click &quot;delete from cart&quot;</string>
+            <string>Then Cart displays &quot;Cart is empty&quot;</string>
+          </steps>
+        </scenario>
+      </normalPerformableScenario>
+      <examplePerformableScenarios/>
+      <status>SUCCESSFUL</status>
+    </performableScenario>
+    <performableScenario>
+      <scenario>
+        <title>4 increase_quantity (“+”)</title>
+        <meta>
+          <properties/>
+        </meta>
+        <givenStories>
+          <givenStories/>
+          <givenStoriesAsString></givenStoriesAsString>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <properties>
+                <property name="ignorableSeparator" value="|--"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="headerSeparator" value="|"/>
+              </properties>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+          </examplesTable>
+        </givenStories>
+        <examplesTable>
+          <tableAsString></tableAsString>
+          <tableTransformers>
+            <transformers>
+              <entry>
+                <string>FORMATTING</string>
+                <formatting/>
+              </entry>
+              <entry>
+                <string>REPLACING</string>
+                <replacing/>
+              </entry>
+              <entry>
+                <string>FROM_LANDSCAPE</string>
+                <fromLandscape/>
+              </entry>
+            </transformers>
+          </tableTransformers>
+          <headers/>
+          <data/>
+          <properties>
+            <properties>
+              <property name="ignorableSeparator" value="|--"/>
+              <property name="valueSeparator" value="|"/>
+              <property name="headerSeparator" value="|"/>
+            </properties>
+          </properties>
+          <propertiesAsString></propertiesAsString>
+          <namedParameters/>
+        </examplesTable>
+        <steps>
+          <string>Given Opened start_catalog with cart fulfilled with quantity 2 of first element from start_catalog</string>
+          <string>When Click on cart button on menu bar</string>
+          <string>And Click 1 times + button</string>
+          <string>Then Item at position 1 has quantity 3</string>
+          <string>And Item name is the same as it was on the item&apos;s page</string>
+          <string>And Check</string>
+        </steps>
+      </scenario>
+      <storyPath>labjbehave/stories.story</storyPath>
+      <allowed>true</allowed>
+      <normalPerformableScenario>
+        <parameters/>
+        <givenStories/>
+        <beforeSteps>
+          <matches/>
+          <results>
+            <silent>
+              <step>labjbehave.CartSteps.beforeScenario()</step>
+              <type>SUCCESSFUL</type>
+              <durationInMillis>3333</durationInMillis>
+              <start>1514544718778</start>
+              <end>1514544722111</end>
+            </silent>
+          </results>
+        </beforeSteps>
+        <steps>
+          <matches>
+            <stepMatch>
+              <type>WHEN</type>
+              <annotatedPattern>Click on cart button on menu bar</annotatedPattern>
+              <resolvedPattern>Click\s+on\s+cart\s+button\s+on\s+menu\s+bar</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>THEN</type>
+              <annotatedPattern>Item at position $position has quantity $quantity</annotatedPattern>
+              <resolvedPattern>Item\s+at\s+position\s+(.*)\s+has\s+quantity\s+(.*)</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>WHEN</type>
+              <annotatedPattern>Click $number times \+ button</annotatedPattern>
+              <resolvedPattern>Click\s+(.*)\s+times\s+\+\s+button</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>GIVEN</type>
+              <annotatedPattern>Opened start_catalog with cart fulfilled with quantity $ of first element from start_catalog</annotatedPattern>
+              <resolvedPattern>Opened\s+start_catalog\s+with\s+cart\s+fulfilled\s+with\s+quantity\s+(.*)\s+of\s+first\s+element\s+from\s+start_catalog</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>THEN</type>
+              <annotatedPattern>Item name is the same as it was on the item&apos;s page</annotatedPattern>
+              <resolvedPattern>Item\s+name\s+is\s+the\s+same\s+as\s+it\s+was\s+on\s+the\s+item&apos;s\s+page</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>THEN</type>
+              <annotatedPattern>Check</annotatedPattern>
+              <resolvedPattern>Check</resolvedPattern>
+            </stepMatch>
+          </matches>
+          <results>
+            <successful>
+              <step>Given Opened start_catalog with cart fulfilled with quantity 2 of first element from start_catalog</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>Given Opened start_catalog with cart fulfilled with quantity ｟2｠ of first element from start_catalog</parametrisedStep>
+              <durationInMillis>27096</durationInMillis>
+              <start>1514544722111</start>
+              <end>1514544749207</end>
+            </successful>
+            <successful>
+              <step>When Click on cart button on menu bar</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>When Click on cart button on menu bar</parametrisedStep>
+              <durationInMillis>3308</durationInMillis>
+              <start>1514544749207</start>
+              <end>1514544752515</end>
+            </successful>
+            <successful>
+              <step>And Click 1 times + button</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>And Click ｟1｠ times + button</parametrisedStep>
+              <durationInMillis>3202</durationInMillis>
+              <start>1514544752515</start>
+              <end>1514544755717</end>
+            </successful>
+            <successful>
+              <step>Then Item at position 1 has quantity 3</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>Then Item at position ｟1｠ has quantity ｟3｠</parametrisedStep>
+              <durationInMillis>70</durationInMillis>
+              <start>1514544755718</start>
+              <end>1514544755788</end>
+            </successful>
+            <successful>
+              <step>And Item name is the same as it was on the item&apos;s page</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>And Item name is the same as it was on the item&apos;s page</parametrisedStep>
+              <durationInMillis>106</durationInMillis>
+              <start>1514544755789</start>
+              <end>1514544755895</end>
+            </successful>
+            <successful>
+              <step>And Check</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>And Check</parametrisedStep>
+              <durationInMillis>185</durationInMillis>
+              <start>1514544755895</start>
+              <end>1514544756080</end>
+            </successful>
+          </results>
+        </steps>
+        <afterSteps>
+          <matches/>
+          <results>
+            <silent>
+              <step>labjbehave.CartSteps.afterScenario()</step>
+              <type>SUCCESSFUL</type>
+              <durationInMillis>958</durationInMillis>
+              <start>1514544756080</start>
+              <end>1514544757038</end>
+            </silent>
+          </results>
+        </afterSteps>
+        <storyAndScenarioMeta>
+          <properties/>
+        </storyAndScenarioMeta>
+        <scenario>
+          <title>4 increase_quantity (“+”)</title>
+          <meta>
+            <properties/>
+          </meta>
+          <givenStories>
+            <givenStories/>
+            <givenStoriesAsString></givenStoriesAsString>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="ignorableSeparator" value="|--"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="headerSeparator" value="|"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+          </givenStories>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <properties>
+                <property name="ignorableSeparator" value="|--"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="headerSeparator" value="|"/>
+              </properties>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+          </examplesTable>
+          <steps>
+            <string>Given Opened start_catalog with cart fulfilled with quantity 2 of first element from start_catalog</string>
+            <string>When Click on cart button on menu bar</string>
+            <string>And Click 1 times + button</string>
+            <string>Then Item at position 1 has quantity 3</string>
+            <string>And Item name is the same as it was on the item&apos;s page</string>
+            <string>And Check</string>
+          </steps>
+        </scenario>
+      </normalPerformableScenario>
+      <examplePerformableScenarios/>
+      <status>SUCCESSFUL</status>
+    </performableScenario>
+    <performableScenario>
+      <scenario>
+        <title>5 decrease quantity (“-”)</title>
+        <meta>
+          <properties/>
+        </meta>
+        <givenStories>
+          <givenStories/>
+          <givenStoriesAsString></givenStoriesAsString>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <properties>
+                <property name="ignorableSeparator" value="|--"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="headerSeparator" value="|"/>
+              </properties>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+          </examplesTable>
+        </givenStories>
+        <examplesTable>
+          <tableAsString></tableAsString>
+          <tableTransformers>
+            <transformers>
+              <entry>
+                <string>FORMATTING</string>
+                <formatting/>
+              </entry>
+              <entry>
+                <string>REPLACING</string>
+                <replacing/>
+              </entry>
+              <entry>
+                <string>FROM_LANDSCAPE</string>
+                <fromLandscape/>
+              </entry>
+            </transformers>
+          </tableTransformers>
+          <headers/>
+          <data/>
+          <properties>
+            <properties>
+              <property name="ignorableSeparator" value="|--"/>
+              <property name="valueSeparator" value="|"/>
+              <property name="headerSeparator" value="|"/>
+            </properties>
+          </properties>
+          <propertiesAsString></propertiesAsString>
+          <namedParameters/>
+        </examplesTable>
+        <steps>
+          <string>Given Opened start_catalog with cart fulfilled with quantity 2 of first element from start_catalog</string>
+          <string>When Click on cart button on menu bar</string>
+          <string>And Click 1 times - button</string>
+          <string>Then Item at position 1 has quantity 1</string>
+          <string>And Item name is the same as it was on the item&apos;s page</string>
+          <string>And Check</string>
+        </steps>
+      </scenario>
+      <storyPath>labjbehave/stories.story</storyPath>
+      <allowed>true</allowed>
+      <normalPerformableScenario>
+        <parameters/>
+        <givenStories/>
+        <beforeSteps>
+          <matches/>
+          <results>
+            <silent>
+              <step>labjbehave.CartSteps.beforeScenario()</step>
+              <type>SUCCESSFUL</type>
+              <durationInMillis>3398</durationInMillis>
+              <start>1514544757040</start>
+              <end>1514544760438</end>
+            </silent>
+          </results>
+        </beforeSteps>
+        <steps>
+          <matches>
+            <stepMatch>
+              <type>WHEN</type>
+              <annotatedPattern>Click on cart button on menu bar</annotatedPattern>
+              <resolvedPattern>Click\s+on\s+cart\s+button\s+on\s+menu\s+bar</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>THEN</type>
+              <annotatedPattern>Item at position $position has quantity $quantity</annotatedPattern>
+              <resolvedPattern>Item\s+at\s+position\s+(.*)\s+has\s+quantity\s+(.*)</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>GIVEN</type>
+              <annotatedPattern>Opened start_catalog with cart fulfilled with quantity $ of first element from start_catalog</annotatedPattern>
+              <resolvedPattern>Opened\s+start_catalog\s+with\s+cart\s+fulfilled\s+with\s+quantity\s+(.*)\s+of\s+first\s+element\s+from\s+start_catalog</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>WHEN</type>
+              <annotatedPattern>Click $number times - button</annotatedPattern>
+              <resolvedPattern>Click\s+(.*)\s+times\s+-\s+button</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>THEN</type>
+              <annotatedPattern>Item name is the same as it was on the item&apos;s page</annotatedPattern>
+              <resolvedPattern>Item\s+name\s+is\s+the\s+same\s+as\s+it\s+was\s+on\s+the\s+item&apos;s\s+page</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>THEN</type>
+              <annotatedPattern>Check</annotatedPattern>
+              <resolvedPattern>Check</resolvedPattern>
+            </stepMatch>
+          </matches>
+          <results>
+            <successful>
+              <step>Given Opened start_catalog with cart fulfilled with quantity 2 of first element from start_catalog</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>Given Opened start_catalog with cart fulfilled with quantity ｟2｠ of first element from start_catalog</parametrisedStep>
+              <durationInMillis>26344</durationInMillis>
+              <start>1514544760438</start>
+              <end>1514544786782</end>
+            </successful>
+            <successful>
+              <step>When Click on cart button on menu bar</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>When Click on cart button on menu bar</parametrisedStep>
+              <durationInMillis>3407</durationInMillis>
+              <start>1514544786783</start>
+              <end>1514544790190</end>
+            </successful>
+            <successful>
+              <step>And Click 1 times - button</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>And Click ｟1｠ times - button</parametrisedStep>
+              <durationInMillis>3188</durationInMillis>
+              <start>1514544790190</start>
+              <end>1514544793378</end>
+            </successful>
+            <successful>
+              <step>Then Item at position 1 has quantity 1</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>Then Item at position ｟1｠ has quantity ｟1｠</parametrisedStep>
+              <durationInMillis>61</durationInMillis>
+              <start>1514544793378</start>
+              <end>1514544793439</end>
+            </successful>
+            <successful>
+              <step>And Item name is the same as it was on the item&apos;s page</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>And Item name is the same as it was on the item&apos;s page</parametrisedStep>
+              <durationInMillis>105</durationInMillis>
+              <start>1514544793440</start>
+              <end>1514544793545</end>
+            </successful>
+            <successful>
+              <step>And Check</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>And Check</parametrisedStep>
+              <durationInMillis>179</durationInMillis>
+              <start>1514544793546</start>
+              <end>1514544793725</end>
+            </successful>
+          </results>
+        </steps>
+        <afterSteps>
+          <matches/>
+          <results>
+            <silent>
+              <step>labjbehave.CartSteps.afterScenario()</step>
+              <type>SUCCESSFUL</type>
+              <durationInMillis>982</durationInMillis>
+              <start>1514544793726</start>
+              <end>1514544794708</end>
+            </silent>
+          </results>
+        </afterSteps>
+        <storyAndScenarioMeta>
+          <properties/>
+        </storyAndScenarioMeta>
+        <scenario>
+          <title>5 decrease quantity (“-”)</title>
+          <meta>
+            <properties/>
+          </meta>
+          <givenStories>
+            <givenStories/>
+            <givenStoriesAsString></givenStoriesAsString>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="ignorableSeparator" value="|--"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="headerSeparator" value="|"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+          </givenStories>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <properties>
+                <property name="ignorableSeparator" value="|--"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="headerSeparator" value="|"/>
+              </properties>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+          </examplesTable>
+          <steps>
+            <string>Given Opened start_catalog with cart fulfilled with quantity 2 of first element from start_catalog</string>
+            <string>When Click on cart button on menu bar</string>
+            <string>And Click 1 times - button</string>
+            <string>Then Item at position 1 has quantity 1</string>
+            <string>And Item name is the same as it was on the item&apos;s page</string>
+            <string>And Check</string>
+          </steps>
+        </scenario>
+      </normalPerformableScenario>
+      <examplePerformableScenarios/>
+      <status>SUCCESSFUL</status>
+    </performableScenario>
+    <performableScenario>
+      <scenario>
+        <title>6 enter_quantity_by_keyboard (correct value)</title>
+        <meta>
+          <properties/>
+        </meta>
+        <givenStories>
+          <givenStories/>
+          <givenStoriesAsString></givenStoriesAsString>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <properties>
+                <property name="ignorableSeparator" value="|--"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="headerSeparator" value="|"/>
+              </properties>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+          </examplesTable>
+        </givenStories>
+        <examplesTable>
+          <tableAsString></tableAsString>
+          <tableTransformers>
+            <transformers>
+              <entry>
+                <string>FORMATTING</string>
+                <formatting/>
+              </entry>
+              <entry>
+                <string>REPLACING</string>
+                <replacing/>
+              </entry>
+              <entry>
+                <string>FROM_LANDSCAPE</string>
+                <fromLandscape/>
+              </entry>
+            </transformers>
+          </tableTransformers>
+          <headers/>
+          <data/>
+          <properties>
+            <properties>
+              <property name="ignorableSeparator" value="|--"/>
+              <property name="valueSeparator" value="|"/>
+              <property name="headerSeparator" value="|"/>
+            </properties>
+          </properties>
+          <propertiesAsString></propertiesAsString>
+          <namedParameters/>
+        </examplesTable>
+        <steps>
+          <string>Given Opened start_catalog</string>
+          <string>When Choose item_1</string>
+          <string>And Click &quot;Buy&quot;</string>
+          <string>And Input quantity 10</string>
+          <string>Then Item at position 1 has quantity 10</string>
+          <string>And Item name is the same as it was on the item&apos;s page</string>
+          <string>And Check</string>
+        </steps>
+      </scenario>
+      <storyPath>labjbehave/stories.story</storyPath>
+      <allowed>true</allowed>
+      <normalPerformableScenario>
+        <parameters/>
+        <givenStories/>
+        <beforeSteps>
+          <matches/>
+          <results>
+            <silent>
+              <step>labjbehave.CartSteps.beforeScenario()</step>
+              <type>SUCCESSFUL</type>
+              <durationInMillis>3346</durationInMillis>
+              <start>1514544794710</start>
+              <end>1514544798056</end>
+            </silent>
+          </results>
+        </beforeSteps>
+        <steps>
+          <matches>
+            <stepMatch>
+              <type>GIVEN</type>
+              <annotatedPattern>Opened start_catalog</annotatedPattern>
+              <resolvedPattern>Opened\s+start_catalog</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>WHEN</type>
+              <annotatedPattern>Input quantity $quantity</annotatedPattern>
+              <resolvedPattern>Input\s+quantity\s+(.*)</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>THEN</type>
+              <annotatedPattern>Item at position $position has quantity $quantity</annotatedPattern>
+              <resolvedPattern>Item\s+at\s+position\s+(.*)\s+has\s+quantity\s+(.*)</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>WHEN</type>
+              <annotatedPattern>Click &quot;Buy&quot;</annotatedPattern>
+              <resolvedPattern>Click\s+&quot;Buy&quot;</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>WHEN</type>
+              <annotatedPattern>Choose item_$number</annotatedPattern>
+              <resolvedPattern>Choose\s+item_(.*)</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>THEN</type>
+              <annotatedPattern>Item name is the same as it was on the item&apos;s page</annotatedPattern>
+              <resolvedPattern>Item\s+name\s+is\s+the\s+same\s+as\s+it\s+was\s+on\s+the\s+item&apos;s\s+page</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>THEN</type>
+              <annotatedPattern>Check</annotatedPattern>
+              <resolvedPattern>Check</resolvedPattern>
+            </stepMatch>
+          </matches>
+          <results>
+            <successful>
+              <step>Given Opened start_catalog</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>Given Opened start_catalog</parametrisedStep>
+              <durationInMillis>9628</durationInMillis>
+              <start>1514544798056</start>
+              <end>1514544807684</end>
+            </successful>
+            <successful>
+              <step>When Choose item_1</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>When Choose item_1</parametrisedStep>
+              <durationInMillis>1711</durationInMillis>
+              <start>1514544807685</start>
+              <end>1514544809396</end>
+            </successful>
+            <successful>
+              <step>And Click &quot;Buy&quot;</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>And Click &quot;Buy&quot;</parametrisedStep>
+              <durationInMillis>4781</durationInMillis>
+              <start>1514544809397</start>
+              <end>1514544814178</end>
+            </successful>
+            <successful>
+              <step>And Input quantity 10</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>And Input quantity ｟10｠</parametrisedStep>
+              <durationInMillis>6301</durationInMillis>
+              <start>1514544814179</start>
+              <end>1514544820480</end>
+            </successful>
+            <successful>
+              <step>Then Item at position 1 has quantity 10</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>Then Item at position ｟1｠ has quantity ｟10｠</parametrisedStep>
+              <durationInMillis>73</durationInMillis>
+              <start>1514544820480</start>
+              <end>1514544820553</end>
+            </successful>
+            <successful>
+              <step>And Item name is the same as it was on the item&apos;s page</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>And Item name is the same as it was on the item&apos;s page</parametrisedStep>
+              <durationInMillis>110</durationInMillis>
+              <start>1514544820553</start>
+              <end>1514544820663</end>
+            </successful>
+            <successful>
+              <step>And Check</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>And Check</parametrisedStep>
+              <durationInMillis>180</durationInMillis>
+              <start>1514544820663</start>
+              <end>1514544820843</end>
+            </successful>
+          </results>
+        </steps>
+        <afterSteps>
+          <matches/>
+          <results>
+            <silent>
+              <step>labjbehave.CartSteps.afterScenario()</step>
+              <type>SUCCESSFUL</type>
+              <durationInMillis>915</durationInMillis>
+              <start>1514544820844</start>
+              <end>1514544821759</end>
+            </silent>
+          </results>
+        </afterSteps>
+        <storyAndScenarioMeta>
+          <properties/>
+        </storyAndScenarioMeta>
+        <scenario>
+          <title>6 enter_quantity_by_keyboard (correct value)</title>
+          <meta>
+            <properties/>
+          </meta>
+          <givenStories>
+            <givenStories/>
+            <givenStoriesAsString></givenStoriesAsString>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="ignorableSeparator" value="|--"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="headerSeparator" value="|"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+          </givenStories>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <properties>
+                <property name="ignorableSeparator" value="|--"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="headerSeparator" value="|"/>
+              </properties>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+          </examplesTable>
+          <steps>
+            <string>Given Opened start_catalog</string>
+            <string>When Choose item_1</string>
+            <string>And Click &quot;Buy&quot;</string>
+            <string>And Input quantity 10</string>
+            <string>Then Item at position 1 has quantity 10</string>
+            <string>And Item name is the same as it was on the item&apos;s page</string>
+            <string>And Check</string>
+          </steps>
+        </scenario>
+      </normalPerformableScenario>
+      <examplePerformableScenarios/>
+      <status>SUCCESSFUL</status>
+    </performableScenario>
+    <performableScenario>
+      <scenario>
+        <title>7 enter_quantity_by_keyboard (incorrect value)</title>
+        <meta>
+          <properties/>
+        </meta>
+        <givenStories>
+          <givenStories/>
+          <givenStoriesAsString></givenStoriesAsString>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <properties>
+                <property name="ignorableSeparator" value="|--"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="headerSeparator" value="|"/>
+              </properties>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+          </examplesTable>
+        </givenStories>
+        <examplesTable>
+          <tableAsString></tableAsString>
+          <tableTransformers>
+            <transformers>
+              <entry>
+                <string>FORMATTING</string>
+                <formatting/>
+              </entry>
+              <entry>
+                <string>REPLACING</string>
+                <replacing/>
+              </entry>
+              <entry>
+                <string>FROM_LANDSCAPE</string>
+                <fromLandscape/>
+              </entry>
+            </transformers>
+          </tableTransformers>
+          <headers/>
+          <data/>
+          <properties>
+            <properties>
+              <property name="ignorableSeparator" value="|--"/>
+              <property name="valueSeparator" value="|"/>
+              <property name="headerSeparator" value="|"/>
+            </properties>
+          </properties>
+          <propertiesAsString></propertiesAsString>
+          <namedParameters/>
+        </examplesTable>
+        <steps>
+          <string>Given Opened start_catalog</string>
+          <string>When Choose item_1</string>
+          <string>And Click &quot;Buy&quot;</string>
+          <string>And Input quantity abc</string>
+          <string>Then Item at position 1 has quantity abc</string>
+          <string>And Item name is the same as it was on the item&apos;s page</string>
+          <string>And Check</string>
+        </steps>
+      </scenario>
+      <storyPath>labjbehave/stories.story</storyPath>
+      <allowed>true</allowed>
+      <normalPerformableScenario>
+        <parameters/>
+        <givenStories/>
+        <beforeSteps>
+          <matches/>
+          <results>
+            <silent>
+              <step>labjbehave.CartSteps.beforeScenario()</step>
+              <type>SUCCESSFUL</type>
+              <durationInMillis>3328</durationInMillis>
+              <start>1514544821760</start>
+              <end>1514544825088</end>
+            </silent>
+          </results>
+        </beforeSteps>
+        <steps>
+          <matches>
+            <stepMatch>
+              <type>GIVEN</type>
+              <annotatedPattern>Opened start_catalog</annotatedPattern>
+              <resolvedPattern>Opened\s+start_catalog</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>WHEN</type>
+              <annotatedPattern>Input quantity $quantity</annotatedPattern>
+              <resolvedPattern>Input\s+quantity\s+(.*)</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>THEN</type>
+              <annotatedPattern>Item at position $position has quantity $quantity</annotatedPattern>
+              <resolvedPattern>Item\s+at\s+position\s+(.*)\s+has\s+quantity\s+(.*)</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>WHEN</type>
+              <annotatedPattern>Click &quot;Buy&quot;</annotatedPattern>
+              <resolvedPattern>Click\s+&quot;Buy&quot;</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>WHEN</type>
+              <annotatedPattern>Choose item_$number</annotatedPattern>
+              <resolvedPattern>Choose\s+item_(.*)</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>THEN</type>
+              <annotatedPattern>Item name is the same as it was on the item&apos;s page</annotatedPattern>
+              <resolvedPattern>Item\s+name\s+is\s+the\s+same\s+as\s+it\s+was\s+on\s+the\s+item&apos;s\s+page</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>THEN</type>
+              <annotatedPattern>Check</annotatedPattern>
+              <resolvedPattern>Check</resolvedPattern>
+            </stepMatch>
+          </matches>
+          <results>
+            <successful>
+              <step>Given Opened start_catalog</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>Given Opened start_catalog</parametrisedStep>
+              <durationInMillis>9656</durationInMillis>
+              <start>1514544825088</start>
+              <end>1514544834744</end>
+            </successful>
+            <successful>
+              <step>When Choose item_1</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>When Choose item_1</parametrisedStep>
+              <durationInMillis>4589</durationInMillis>
+              <start>1514544834744</start>
+              <end>1514544839333</end>
+            </successful>
+            <successful>
+              <step>And Click &quot;Buy&quot;</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>And Click &quot;Buy&quot;</parametrisedStep>
+              <durationInMillis>3918</durationInMillis>
+              <start>1514544839333</start>
+              <end>1514544843251</end>
+            </successful>
+            <failed>
+              <step>And Input quantity abc</step>
+              <type>FAILED</type>
+              <throwable>
+                <detailMessage>And Input quantity abc</detailMessage>
+                <cause class="org.jbehave.core.steps.ParameterConverters$ParameterConvertionFailed">
+                  <detailMessage>abc</detailMessage>
+                  <cause class="java.text.ParseException">
+                    <detailMessage>Unparseable number: &quot;abc&quot;</detailMessage>
+                    <stackTrace>
+                      <trace>java.base/java.text.NumberFormat.parse(NumberFormat.java:393)</trace>
+                      <trace>org.jbehave.core.steps.ParameterConverters$NumberConverter.convertValue(ParameterConverters.java:288)</trace>
+                      <trace>org.jbehave.core.steps.ParameterConverters.convert(ParameterConverters.java:195)</trace>
+                      <trace>org.jbehave.core.steps.StepCreator.convertParameterValues(StepCreator.java:405)</trace>
+                      <trace>org.jbehave.core.steps.StepCreator.access$1300(StepCreator.java:44)</trace>
+                      <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.parametriseStep(StepCreator.java:782)</trace>
+                      <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:730)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                      <trace>java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)</trace>
+                      <trace>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)</trace>
+                      <trace>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)</trace>
+                      <trace>java.base/java.lang.Thread.run(Thread.java:844)</trace>
+                    </stackTrace>
+                    <suppressedExceptions class="empty-list"/>
+                    <errorOffset>0</errorOffset>
+                  </cause>
+                  <stackTrace>
+                    <trace>org.jbehave.core.steps.ParameterConverters$NumberConverter.convertValue(ParameterConverters.java:315)</trace>
+                    <trace>org.jbehave.core.steps.ParameterConverters.convert(ParameterConverters.java:195)</trace>
+                    <trace>org.jbehave.core.steps.StepCreator.convertParameterValues(StepCreator.java:405)</trace>
+                    <trace>org.jbehave.core.steps.StepCreator.access$1300(StepCreator.java:44)</trace>
+                    <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.parametriseStep(StepCreator.java:782)</trace>
+                    <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:730)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                    <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                    <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                    <trace>java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)</trace>
+                    <trace>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)</trace>
+                    <trace>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)</trace>
+                    <trace>java.base/java.lang.Thread.run(Thread.java:844)</trace>
+                  </stackTrace>
+                  <suppressedExceptions class="empty-list"/>
+                </cause>
+                <stackTrace>
+                  <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:755)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                  <trace>java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)</trace>
+                  <trace>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)</trace>
+                  <trace>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)</trace>
+                  <trace>java.base/java.lang.Thread.run(Thread.java:844)</trace>
+                </stackTrace>
+                <suppressedExceptions class="empty-list"/>
+                <uuid>1934fb83-f83e-4e65-9827-d42d05fa7833</uuid>
+              </throwable>
+              <durationInMillis>2</durationInMillis>
+              <start>1514544843251</start>
+              <end>1514544843253</end>
+            </failed>
+            <notPerformed>
+              <step>Then Item at position 1 has quantity abc</step>
+              <type>NOT_PERFORMED</type>
+              <durationInMillis>0</durationInMillis>
+              <start>0</start>
+              <end>0</end>
+            </notPerformed>
+            <notPerformed>
+              <step>And Item name is the same as it was on the item&apos;s page</step>
+              <type>NOT_PERFORMED</type>
+              <parametrisedStep>And Item name is the same as it was on the item&apos;s page</parametrisedStep>
+              <durationInMillis>0</durationInMillis>
+              <start>0</start>
+              <end>0</end>
+            </notPerformed>
+            <notPerformed>
+              <step>And Check</step>
+              <type>NOT_PERFORMED</type>
+              <parametrisedStep>And Check</parametrisedStep>
+              <durationInMillis>0</durationInMillis>
+              <start>0</start>
+              <end>0</end>
+            </notPerformed>
+          </results>
+        </steps>
+        <afterSteps>
+          <matches/>
+          <results>
+            <silent>
+              <step>labjbehave.CartSteps.afterScenario()</step>
+              <type>SUCCESSFUL</type>
+              <durationInMillis>940</durationInMillis>
+              <start>1514544843257</start>
+              <end>1514544844197</end>
+            </silent>
+          </results>
+        </afterSteps>
+        <storyAndScenarioMeta>
+          <properties/>
+        </storyAndScenarioMeta>
+        <scenario>
+          <title>7 enter_quantity_by_keyboard (incorrect value)</title>
+          <meta>
+            <properties/>
+          </meta>
+          <givenStories>
+            <givenStories/>
+            <givenStoriesAsString></givenStoriesAsString>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="ignorableSeparator" value="|--"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="headerSeparator" value="|"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+          </givenStories>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <properties>
+                <property name="ignorableSeparator" value="|--"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="headerSeparator" value="|"/>
+              </properties>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+          </examplesTable>
+          <steps>
+            <string>Given Opened start_catalog</string>
+            <string>When Choose item_1</string>
+            <string>And Click &quot;Buy&quot;</string>
+            <string>And Input quantity abc</string>
+            <string>Then Item at position 1 has quantity abc</string>
+            <string>And Item name is the same as it was on the item&apos;s page</string>
+            <string>And Check</string>
+          </steps>
+        </scenario>
+      </normalPerformableScenario>
+      <examplePerformableScenarios/>
+      <status>FAILED</status>
+    </performableScenario>
+  </scenarios>
+</xref>

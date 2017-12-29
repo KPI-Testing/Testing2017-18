@@ -1,0 +1,67 @@
+<story path="labjbehave/stories.story" title="As a user
+I want to buy some items and check rozetka_backet
+So that So that I go to ItemPage and add product to cart">
+<scenario keyword="Scenario:" title="1 quick_purchase">
+<step outcome="successful">Given Opened start_catalog</step>
+<step outcome="successful">When Click element`s <parameter>1</parameter> &quot;cart button&quot;</step>
+<step outcome="successful">Then Item at position <parameter>1</parameter> has quantity <parameter>1</parameter></step>
+<step outcome="successful">And Check</step>
+</scenario>
+<scenario keyword="Scenario:" title="2 simple_purchase">
+<step outcome="successful">Given Opened start_catalog</step>
+<step outcome="successful">When Choose item_1</step>
+<step outcome="successful">And Click &quot;Buy&quot;</step>
+<step outcome="successful">Then Item at position <parameter>1</parameter> has quantity <parameter>1</parameter></step>
+<step outcome="successful">And Item name is the same as it was on the item&apos;s page</step>
+<step outcome="successful">And Check</step>
+</scenario>
+<scenario keyword="Scenario:" title="3 delete_item">
+<step outcome="successful">Given Opened start_catalog with cart fulfilled with quantity <parameter>2</parameter> of first element from start_catalog</step>
+<step outcome="successful">When Click on cart button on menu bar</step>
+<step outcome="successful">And Click &quot;delete from cart&quot;</step>
+<step outcome="successful">Then Cart displays &quot;Cart is empty&quot;</step>
+</scenario>
+<scenario keyword="Scenario:" title="4 increase_quantity (“+”)">
+<step outcome="successful">Given Opened start_catalog with cart fulfilled with quantity <parameter>2</parameter> of first element from start_catalog</step>
+<step outcome="successful">When Click on cart button on menu bar</step>
+<step outcome="successful">And Click <parameter>1</parameter> times + button</step>
+<step outcome="successful">Then Item at position <parameter>1</parameter> has quantity <parameter>3</parameter></step>
+<step outcome="successful">And Item name is the same as it was on the item&apos;s page</step>
+<step outcome="successful">And Check</step>
+</scenario>
+<scenario keyword="Scenario:" title="5 decrease quantity (“-”)">
+<step outcome="successful">Given Opened start_catalog with cart fulfilled with quantity <parameter>2</parameter> of first element from start_catalog</step>
+<step outcome="successful">When Click on cart button on menu bar</step>
+<step outcome="successful">And Click <parameter>1</parameter> times - button</step>
+<step outcome="successful">Then Item at position <parameter>1</parameter> has quantity <parameter>1</parameter></step>
+<step outcome="successful">And Item name is the same as it was on the item&apos;s page</step>
+<step outcome="successful">And Check</step>
+</scenario>
+<scenario keyword="Scenario:" title="6 enter_quantity_by_keyboard (correct value)">
+<step outcome="successful">Given Opened start_catalog</step>
+<step outcome="successful">When Choose item_1</step>
+<step outcome="successful">And Click &quot;Buy&quot;</step>
+<step outcome="successful">And Input quantity <parameter>10</parameter></step>
+<step outcome="successful">Then Item at position <parameter>1</parameter> has quantity <parameter>10</parameter></step>
+<step outcome="successful">And Item name is the same as it was on the item&apos;s page</step>
+<step outcome="successful">And Check</step>
+</scenario>
+<scenario keyword="Scenario:" title="7 enter_quantity_by_keyboard (incorrect value)">
+<step outcome="successful">Given Opened start_catalog</step>
+<step outcome="successful">When Choose item_1</step>
+<step outcome="successful">And Click &quot;Buy&quot;</step>
+<step outcome="failed" keyword="FAILED">And Input quantity abc<failure>org.jbehave.core.steps.ParameterConverters$ParameterConvertionFailed: abc</failure></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then Item at position 1 has quantity abc</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Item name is the same as it was on the item&apos;s page</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Check</step>
+<failure>org.jbehave.core.steps.ParameterConverters$ParameterConvertionFailed: abc
+	at org.jbehave.core.steps.ParameterConverters$NumberConverter.convertValue(ParameterConverters.java:315)
+	at org.jbehave.core.steps.ParameterConverters.convert(ParameterConverters.java:195)
+	at org.jbehave.core.steps.StepCreator.convertParameterValues(StepCreator.java:405)
+	at org.jbehave.core.steps.StepCreator.access$1300(StepCreator.java:44)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.parametriseStep(StepCreator.java:782)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:730)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)
+...</failure>
+</scenario>
+</story>

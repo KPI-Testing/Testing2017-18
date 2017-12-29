@@ -1,0 +1,149 @@
+<story path="labjbehave/cart_stories_full.story" title="">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="As a">user</inOrderTo>
+  <asA keyword="I want to">buy few sledges and crash rosetka a little bit</asA>
+  <iWantTo keyword="So that">I go to ItemPage and add product to cart</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="0.1 Buying product">
+<step outcome="successful">Given opened catalog with empty cart</step>
+<step outcome="successful">When select item <parameter>1</parameter></step>
+<step outcome="successful">And click &quot;Buy&quot;</step>
+<step outcome="successful">Then item at position <parameter>1</parameter> has quantity <parameter>1</parameter></step>
+<step outcome="successful">And item name is the same as it was on the item&apos;s page</step>
+<step outcome="successful">And calculations are correct</step>
+</scenario>
+<scenario keyword="Scenario:" title="1 Adding element after buying from ElementPage">
+<step outcome="successful">Given opened catalog with empty cart</step>
+<step outcome="successful">When select item <parameter>1</parameter></step>
+<step outcome="successful">And click &quot;Buy&quot;</step>
+<step outcome="successful">And click <parameter>2</parameter> times + button</step>
+<step outcome="successful">Then item at position <parameter>1</parameter> has quantity <parameter>3</parameter></step>
+<step outcome="successful">And item name is the same as it was on the item&apos;s page</step>
+<step outcome="successful">And calculations are correct</step>
+</scenario>
+<scenario keyword="Scenario:" title="2 Adding element after buying from SearchPage">
+<step outcome="successful">Given opened catalog with empty cart</step>
+<step outcome="successful">When click element`s <parameter>1</parameter> &quot;cart button&quot;</step>
+<step outcome="successful">And click on &quot;Continue purchase&quot; button</step>
+<step outcome="successful">And click on cart button on menu bar</step>
+<step outcome="successful">And click <parameter>2</parameter> times + button</step>
+<step outcome="successful">Then item at position <parameter>1</parameter> has quantity <parameter>3</parameter></step>
+<step outcome="successful">And calculations are correct</step>
+</scenario>
+<scenario keyword="Scenario:" title="3 Decreasing amount of product in the cart">
+<step outcome="successful">Given opened catalog with cart fulfilled with quantity <parameter>2</parameter> of first element from catalog</step>
+<step outcome="successful">When click on cart button on menu bar</step>
+<step outcome="successful">And click <parameter>1</parameter> times - button</step>
+<step outcome="successful">Then item at position <parameter>1</parameter> has quantity <parameter>1</parameter></step>
+<step outcome="successful">And item name is the same as it was on the item&apos;s page</step>
+<step outcome="successful">And calculations are correct</step>
+</scenario>
+<scenario keyword="Scenario:" title="4 Adding new product to cart list">
+<step outcome="successful">Given opened catalog with cart fulfilled with quantity <parameter>2</parameter> of first element from catalog</step>
+<step outcome="successful">When select_special item <parameter>2</parameter></step>
+<step outcome="successful">And click &quot;Buy&quot;</step>
+<step outcome="successful">And click <parameter>2</parameter> times + button</step>
+<step outcome="successful">Then item at position <parameter>1</parameter> has quantity <parameter>3</parameter></step>
+<step outcome="successful">And item at position <parameter>2</parameter> has quantity <parameter>2</parameter></step>
+<step outcome="successful">And item name is the same as it was on the item&apos;s page</step>
+<step outcome="successful">And calculations are correct</step>
+</scenario>
+<scenario keyword="Scenario:" title="5 Changing amount of goods using textfield">
+<step outcome="successful">Given opened catalog with empty cart</step>
+<step outcome="successful">When select item <parameter>1</parameter></step>
+<step outcome="successful">And click &quot;Buy&quot;</step>
+<step outcome="successful">And input quantity <parameter>999</parameter></step>
+<step outcome="successful">Then item at position <parameter>1</parameter> has quantity <parameter>999</parameter></step>
+<step outcome="successful">And item name is the same as it was on the item&apos;s page</step>
+<step outcome="successful">And calculations are correct</step>
+</scenario>
+<scenario keyword="Scenario:" title="6 Changing amount of goods using textfield and plus button">
+<step outcome="successful">Given opened catalog with empty cart</step>
+<step outcome="successful">When select item <parameter>1</parameter></step>
+<step outcome="successful">And click &quot;Buy&quot;</step>
+<step outcome="successful">And input quantity <parameter>999</parameter></step>
+<step outcome="successful">And click <parameter>1</parameter> times + button</step>
+<step outcome="successful">Then item at position <parameter>1</parameter> has quantity <parameter>1000</parameter></step>
+<step outcome="successful">And item name is the same as it was on the item&apos;s page</step>
+<step outcome="successful">And calculations are correct</step>
+</scenario>
+<scenario keyword="Scenario:" title="7 Adding new product to cart list using functional of going on shopping">
+<step outcome="successful">Given opened catalog with empty cart</step>
+<step outcome="successful">When select item <parameter>1</parameter></step>
+<step outcome="successful">And click &quot;Buy&quot;</step>
+<step outcome="successful">And click <parameter>2</parameter> times + button</step>
+<step outcome="successful">And click on &quot;Continue purchase&quot; button</step>
+<step outcome="successful">And go to catalog</step>
+<step outcome="successful">And select_special item <parameter>2</parameter></step>
+<step outcome="successful">And click &quot;Buy&quot;</step>
+<step outcome="successful">And click <parameter>2</parameter> times + button</step>
+<step outcome="successful">Then item at position <parameter>1</parameter> has quantity <parameter>3</parameter></step>
+<step outcome="successful">And item at position <parameter>2</parameter> has quantity <parameter>3</parameter></step>
+<step outcome="successful">And item name is the same as it was on the item&apos;s page</step>
+<step outcome="successful">And calculations are correct</step>
+</scenario>
+<scenario keyword="Scenario:" title="8 Deleting product from cart list">
+<step outcome="successful">Given opened catalog with cart fulfilled with quantity <parameter>2</parameter> of first element from catalog</step>
+<step outcome="successful">When click on cart button on menu bar</step>
+<step outcome="successful">And click &quot;delete from cart&quot;</step>
+<step outcome="successful">Then Cart displays &quot;Cart is empty&quot;</step>
+<step outcome="failed" keyword="FAILED">And calculations are correct<failure>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;cost&quot;}
+  (Session info: chrome=63.0.3239.84)
+  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.8.0&apos;, revision: &apos;924c4067df&apos;, time: &apos;2017-11-30T11:20:39.408Z&apos;
+System info: host: &apos;ADMIN-ПК&apos;, ip: &apos;192.168.0.100&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;9.0.1&apos;
+Driver info: Extensions.ChromeDriverEx
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522940 (1a76f96f66e3ca..., userDataDir: C:\Users\admin\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.84, webStorageEnabled: true}
+Session ID: ccaf0b603705df01c397c60b58ee0601
+*** Element info: {Using=name, value=cost}</failure></step>
+<failure>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;cost&quot;}
+  (Session info: chrome=63.0.3239.84)
+  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.8.0&apos;, revision: &apos;924c4067df&apos;, time: &apos;2017-11-30T11:20:39.408Z&apos;
+System info: host: &apos;ADMIN-ПК&apos;, ip: &apos;192.168.0.100&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;9.0.1&apos;
+Driver info: Extensions.ChromeDriverEx
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522940 (1a76f96f66e3ca..., userDataDir: C:\Users\admin\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.84, webStorageEnabled: true}
+Session ID: ccaf0b603705df01c397c60b58ee0601
+*** Element info: {Using=name, value=cost}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy16.getText(Unknown Source)
+	at Elements.Element.getText(Element.java:46)
+	at Page_Objects.Card_Page.Get_Price(Card_Page.java:27)
+	at Contexts.Context_Card.assertCalculations(Context_Card.java:90)
+	at labjbehave.CartSteps.checkCorectnessOfCalculations(CartSteps.java:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)
+...</failure>
+</scenario>
+<scenario keyword="Scenario:" title="9 Checking availibility of products in a cart">
+<step outcome="successful">Given opened catalog with cart fulfilled with quantity <parameter>2</parameter> of first element from catalog</step>
+<step outcome="successful">When click element`s <parameter>1</parameter> &quot;cart button&quot;</step>
+<step outcome="successful">Then item at position <parameter>1</parameter> has quantity <parameter>2</parameter></step>
+<step outcome="successful">And calculations are correct</step>
+</scenario>
+</story>
