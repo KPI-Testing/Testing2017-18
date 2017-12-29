@@ -1,0 +1,20 @@
+C:\Users\Georg\Desktop\Rozetka-master\RozetkaFrameworkTest\TestFramework\bin\Debug\TestFramework.dll
+C:\Users\Georg\Desktop\Rozetka-master\RozetkaFrameworkTest\TestFramework\bin\Debug\TestFramework.pdb
+C:\Users\Georg\Desktop\Rozetka-master\RozetkaFrameworkTest\TestFramework\bin\Debug\WebDriver.dll
+C:\Users\Georg\Desktop\Rozetka-master\RozetkaFrameworkTest\TestFramework\bin\Debug\WebDriver.Support.dll
+C:\Users\Georg\Desktop\Rozetka-master\RozetkaFrameworkTest\TestFramework\bin\Debug\WebDriver.xml
+C:\Users\Georg\Desktop\Rozetka-master\RozetkaFrameworkTest\TestFramework\bin\Debug\WebDriver.Support.xml
+C:\Users\Georg\Desktop\Rozetka-master\RozetkaFrameworkTest\TestFramework\obj\Debug\TestFramework.csprojResolveAssemblyReference.cache
+C:\Users\Georg\Desktop\Rozetka-master\RozetkaFrameworkTest\TestFramework\obj\Debug\TestFramework.csproj.CoreCompileInputs.cache
+C:\Users\Georg\Desktop\Rozetka-master\RozetkaFrameworkTest\TestFramework\obj\Debug\TestFramework.dll
+C:\Users\Georg\Desktop\Rozetka-master\RozetkaFrameworkTest\TestFramework\obj\Debug\TestFramework.pdb
+E:\Testing\Testing2017-18\Kantsedal\Lab 6\TestFramework\bin\Debug\TestFramework.dll
+E:\Testing\Testing2017-18\Kantsedal\Lab 6\TestFramework\bin\Debug\TestFramework.pdb
+E:\Testing\Testing2017-18\Kantsedal\Lab 6\TestFramework\bin\Debug\WebDriver.dll
+E:\Testing\Testing2017-18\Kantsedal\Lab 6\TestFramework\bin\Debug\WebDriver.Support.dll
+E:\Testing\Testing2017-18\Kantsedal\Lab 6\TestFramework\bin\Debug\WebDriver.xml
+E:\Testing\Testing2017-18\Kantsedal\Lab 6\TestFramework\bin\Debug\WebDriver.Support.xml
+E:\Testing\Testing2017-18\Kantsedal\Lab 6\TestFramework\obj\Debug\TestFramework.csprojResolveAssemblyReference.cache
+E:\Testing\Testing2017-18\Kantsedal\Lab 6\TestFramework\obj\Debug\TestFramework.csproj.CoreCompileInputs.cache
+E:\Testing\Testing2017-18\Kantsedal\Lab 6\TestFramework\obj\Debug\TestFramework.dll
+E:\Testing\Testing2017-18\Kantsedal\Lab 6\TestFramework\obj\Debug\TestFramework.pdb
