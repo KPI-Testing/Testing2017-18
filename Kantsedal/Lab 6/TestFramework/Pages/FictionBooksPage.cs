@@ -12,6 +12,10 @@ namespace TestFramework.Pages
             _driver = driver;
             PageFactory.InitElements(driver, this);
         }
+            public IWebDriver GetDriver()
+        {
+            return _driver;
+        }
 
         [FindsBy(How = How.Id, Using = "price[min]")]
         public IWebElement MinimumPrice;
@@ -31,11 +35,21 @@ namespace TestFramework.Pages
             MinimumPrice.SendKeys(price.ToString());
             return this;
         }
-   public FictionBooksPage SomeBookClick(int i)
+        public FictionBooksPage SomeBookClick(int i)
         {
-            books[i-1].Click();
-     
-            return this;
+            string urlbefor = this.GetDriver().ToString();
+            string urlafter = this.GetDriver().ToString();
+            int k = 1000;
+            do
+            {
+                System.Threading.Thread.Sleep(k);
+                books[1].Click();
+                k = k + k;
+                urlafter = this.GetDriver().ToString();
+            } while (!(urlafter.CompareTo(urlbefor) == 0) || (k > 10000));
+
+
+                return this;
         }
         public FictionBooksPage SetMaximumPrice(int? price)
         {
