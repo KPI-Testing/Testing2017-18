@@ -7,7 +7,7 @@ namespace TestFramework.Contexts
     {
         public static void FilterByPriceRange(FilterPage page, int? minPrice, int? maxPrice)
         {
-            SetPrice(page, minPrice, maxPrice).SubmitPriceFilter();
+            page.SetPrice(minPrice, maxPrice).SubmitPriceFilter();
         }
 
         public static FilterPage SetPrice(this FilterPage page, int? MinPrice, int? MaxPrice)
